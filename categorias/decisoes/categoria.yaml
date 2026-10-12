@@ -1,0 +1,16 @@
+id: decisoes
+ordem: 12
+slug:
+  pt: decisoes
+  en: decisions
+nome:
+  pt: Decisões
+  en: Decisions
+descricao_en: >-
+  Evaluates binary decisions, support satisfaction scores and department
+  classification against 30 fixed Portuguese ground-truth cases.
+metricas:
+  - id: proximidade
+    rotulo:
+      pt: Proximidade do gabarito
+      en: Ground-truth proximity

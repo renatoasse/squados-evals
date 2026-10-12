@@ -1,0 +1,61 @@
+{
+  "descricao": "vendas-regionais — Vendas regionais",
+  "metadata": {
+    "id": "vendas-regionais",
+    "slug": {
+      "pt": "vendas-regionais",
+      "en": "regional-sales"
+    },
+    "titulo": {
+      "pt": "Vendas regionais",
+      "en": "Regional sales"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "vendas-regionais",
+    "pedido": {
+      "arquivo": "categorias/planilhas-e-dados/entradas/pedido-vendas-regionais.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/planilhas-e-dados/entradas/vendas-regionais-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "p1",
+      "tipo": "codigo",
+      "descricao": "Faturamento de setembro exato, com o desconto aplicado (tolerância de R$ 0,01)",
+      "peso": 3,
+      "metrica": "numeros"
+    },
+    {
+      "item": "p2",
+      "tipo": "codigo",
+      "descricao": "Região com o maior ticket médio",
+      "peso": 3,
+      "metrica": "numeros"
+    },
+    {
+      "item": "p3",
+      "tipo": "codigo",
+      "descricao": "Vendedor com mais unidades no trimestre (unidades, não número de vendas)",
+      "peso": 3,
+      "metrica": "numeros"
+    },
+    {
+      "item": "p4",
+      "tipo": "codigo",
+      "descricao": "Porcentagem de vendas com desconto maior que 10% (tolerância de 0,1 ponto)",
+      "peso": 3,
+      "metrica": "numeros"
+    },
+    {
+      "item": "p5",
+      "tipo": "codigo",
+      "descricao": "Produto com a maior queda de faturamento de agosto para setembro",
+      "peso": 3,
+      "metrica": "numeros"
+    }
+  ]
+}

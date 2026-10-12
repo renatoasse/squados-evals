@@ -1,0 +1,16 @@
+{
+  "turnos": [
+    {
+      "texto": "",
+      "chamadas": [
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT email, GROUP_CONCAT(id) AS ids FROM clientes GROUP BY email HAVING COUNT(*) > 1 ORDER BY MIN(id)" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT id, valor_compras FROM clientes WHERE valor_compras > 100000 ORDER BY id" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT id, cpf FROM clientes WHERE LENGTH(REPLACE(REPLACE(cpf, '.', ''), '-', '')) <> 11 ORDER BY id" } }
+      ]
+    },
+    {
+      "texto": "{ \"duplicados\": [[62, 217], [127, 514], [202, 694], [543, 745]], \"outliers\": [674, 692, 791], \"cpf_invalido\": [63] }",
+      "chamadas": []
+    }
+  ]
+}

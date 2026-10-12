@@ -1,0 +1,5 @@
+{{ pedido }}
+
+<briefing>
+{{ briefing }}
+</briefing>

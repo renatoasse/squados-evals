@@ -1,0 +1,77 @@
+{
+  "descricao": "email-lancamento — E-mail de lançamento",
+  "metadata": {
+    "id": "email-lancamento",
+    "slug": {
+      "pt": "email-de-lancamento",
+      "en": "launch-email"
+    },
+    "titulo": {
+      "pt": "E-mail de lançamento",
+      "en": "Launch email"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "email-lancamento",
+    "pedido": {
+      "arquivo": "categorias/copywriting/entradas/pedido-email-lancamento.md"
+    },
+    "briefing": {
+      "arquivo": "categorias/copywriting/entradas/briefing.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "assunto-50",
+      "tipo": "codigo",
+      "descricao": "1ª linha é \"Assunto:\" com até 50 caracteres",
+      "peso": 2,
+      "metrica": "limites"
+    },
+    {
+      "item": "cta-unico",
+      "tipo": "codigo",
+      "descricao": "O link do curso aparece exatamente uma vez",
+      "peso": 2,
+      "metrica": "obrigatorios"
+    },
+    {
+      "item": "preco-parcelado",
+      "tipo": "codigo",
+      "descricao": "Cita R$ 497 à vista e 12× de R$ 49,70",
+      "peso": 3,
+      "metrica": "obrigatorios"
+    },
+    {
+      "item": "garantia",
+      "tipo": "codigo",
+      "descricao": "Cita a garantia de 7 dias",
+      "peso": 2,
+      "metrica": "obrigatorios"
+    },
+    {
+      "item": "bonus",
+      "tipo": "codigo",
+      "descricao": "Cita o bônus \"Modelo de fluxo de caixa\"",
+      "peso": 1,
+      "metrica": "obrigatorios"
+    },
+    {
+      "item": "sem-proibidas",
+      "tipo": "codigo",
+      "descricao": "Não usa nenhuma das expressões proibidas pelo briefing",
+      "peso": 3,
+      "metrica": "proibidos"
+    },
+    {
+      "item": "fiel",
+      "tipo": "juiz",
+      "descricao": "Só afirma o que está no briefing",
+      "contexto": "briefing",
+      "pergunta": "A RESPOSTA AVALIADA só afirma benefícios, bônus, preços, prazos e condições que constam no MATERIAL DE REFERÊNCIA? Considere evidência cada número, bônus, garantia, resultado prometido ou característica do curso citada na resposta; se qualquer um deles não estiver no material, a resposta é não.",
+      "peso": 3,
+      "metrica": "fidelidade"
+    }
+  ]
+}

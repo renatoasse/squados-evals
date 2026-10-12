@@ -1,0 +1,112 @@
+{
+  "descricao": "ata-reuniao-produto — Ata de reunião de produto",
+  "metadata": {
+    "id": "ata-reuniao-produto",
+    "slug": {
+      "pt": "ata-de-reuniao-de-produto",
+      "en": "product-meeting-minutes"
+    },
+    "titulo": {
+      "pt": "Ata de reunião de produto",
+      "en": "Product meeting minutes"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "ata-reuniao-produto",
+    "pedido": {
+      "arquivo": "categorias/resumos-e-atas/entradas/pedido-ata-reuniao-produto.md"
+    },
+    "documento": {
+      "arquivo": "categorias/resumos-e-atas/entradas/transcricao-reuniao-produto.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "decisao-1",
+      "tipo": "codigo",
+      "descricao": "Registra a decisão de incluir o Pix no checkout da 3.2",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "decisao-2",
+      "tipo": "codigo",
+      "descricao": "Registra a decisão de adiar o modo offline para o 1º trimestre de 2027",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "decisao-3",
+      "tipo": "codigo",
+      "descricao": "Registra a decisão de trocar o vídeo pelo onboarding guiado",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "decisao-4",
+      "tipo": "codigo",
+      "descricao": "Registra a decisão da notificação de entrega por WhatsApp",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "tarefa-1",
+      "tipo": "codigo",
+      "descricao": "Tarefa da Pagare/Pix com Diego e prazo 18/09",
+      "peso": 2,
+      "metrica": "tarefas"
+    },
+    {
+      "item": "tarefa-2",
+      "tipo": "codigo",
+      "descricao": "Tarefa do roadmap e do e-mail ao Grupo Sabor Serrano com Mariana e prazo 16/09",
+      "peso": 2,
+      "metrica": "tarefas"
+    },
+    {
+      "item": "tarefa-3",
+      "tipo": "codigo",
+      "descricao": "Tarefa do protótipo do onboarding com Priscila e prazo 25/09",
+      "peso": 2,
+      "metrica": "tarefas"
+    },
+    {
+      "item": "tarefa-4",
+      "tipo": "codigo",
+      "descricao": "Tarefa do relatório de abandono com Tatiane e prazo 22/09",
+      "peso": 2,
+      "metrica": "tarefas"
+    },
+    {
+      "item": "tarefa-5",
+      "tipo": "codigo",
+      "descricao": "Tarefa dos restaurantes do piloto com Júlio e prazo 21/09",
+      "peso": 2,
+      "metrica": "tarefas"
+    },
+    {
+      "item": "tarefa-6",
+      "tipo": "codigo",
+      "descricao": "Tarefa do plano de testes de regressão com Tatiane e prazo 29/09",
+      "peso": 2,
+      "metrica": "tarefas"
+    },
+    {
+      "item": "decisao-revertida",
+      "tipo": "codigo",
+      "descricao": "Não registra como decidida a migração para a Sinalix, revertida no fim da reunião",
+      "peso": 3,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "nao-inventa",
+      "tipo": "juiz",
+      "descricao": "Só registra decisões e tarefas que aparecem na reunião",
+      "contexto": "documento",
+      "pergunta": "Cada decisão e cada tarefa listada na RESPOSTA AVALIADA aparece no MATERIAL DE REFERÊNCIA com o mesmo conteúdo, o mesmo dono e o mesmo prazo, e nenhuma delas foi descartada ou revertida na própria reunião? Considere evidência cada linha das seções de decisões e de tarefas; uma linha sem correspondência na transcrição, com dono ou prazo diferente, ou que registre como valendo algo revertido ou fora do assunto do produto (como a máquina de café) torna a resposta não.",
+      "peso": 3,
+      "metrica": "invencao"
+    }
+  ]
+}

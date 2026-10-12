@@ -1,0 +1,114 @@
+{
+  "descricao": "decisao-categoria — Categoria do atendimento",
+  "metadata": {
+    "id": "decisao-categoria",
+    "tipo": "decisao",
+    "slug": {
+      "pt": "decisao-categoria",
+      "en": "decisao-categoria"
+    },
+    "titulo": {
+      "pt": "Categoria do atendimento",
+      "en": "Categoria do atendimento"
+    },
+    "publicada": "2026-10-11"
+  },
+  "entradas": {
+    "tarefa": "decisao-categoria",
+    "decisoes": {
+      "arquivo": "categorias/decisoes/entradas/categoria.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "cat01",
+      "tipo": "codigo",
+      "descricao": "cat01: gabarito vendas",
+      "caso": "cat01",
+      "esperado": "vendas",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat02",
+      "tipo": "codigo",
+      "descricao": "cat02: gabarito vendas",
+      "caso": "cat02",
+      "esperado": "vendas",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat03",
+      "tipo": "codigo",
+      "descricao": "cat03: gabarito vendas",
+      "caso": "cat03",
+      "esperado": "vendas",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat04",
+      "tipo": "codigo",
+      "descricao": "cat04: gabarito suporte",
+      "caso": "cat04",
+      "esperado": "suporte",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat05",
+      "tipo": "codigo",
+      "descricao": "cat05: gabarito suporte",
+      "caso": "cat05",
+      "esperado": "suporte",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat06",
+      "tipo": "codigo",
+      "descricao": "cat06: gabarito suporte",
+      "caso": "cat06",
+      "esperado": "suporte",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat07",
+      "tipo": "codigo",
+      "descricao": "cat07: gabarito financeiro",
+      "caso": "cat07",
+      "esperado": "financeiro",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat08",
+      "tipo": "codigo",
+      "descricao": "cat08: gabarito financeiro",
+      "caso": "cat08",
+      "esperado": "financeiro",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat09",
+      "tipo": "codigo",
+      "descricao": "cat09: gabarito outros",
+      "caso": "cat09",
+      "esperado": "outros",
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "cat10",
+      "tipo": "codigo",
+      "descricao": "cat10: gabarito outros",
+      "caso": "cat10",
+      "esperado": "outros",
+      "peso": 1,
+      "metrica": "proximidade"
+    }
+  ]
+}

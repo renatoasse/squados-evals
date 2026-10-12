@@ -1,0 +1,69 @@
+{
+  "descricao": "conciliar-faturas — Conciliar faturas",
+  "metadata": {
+    "id": "conciliar-faturas",
+    "slug": {
+      "pt": "conciliar-faturas",
+      "en": "reconcile-invoices"
+    },
+    "titulo": {
+      "pt": "Conciliar faturas",
+      "en": "Reconcile invoices"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "conciliar-faturas",
+    "pedido": {
+      "arquivo": "categorias/ferramentas-varios-passos/entradas/conciliar-faturas.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/ferramentas-varios-passos/entradas/conciliar-faturas-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "pagas-certas",
+      "tipo": "codigo",
+      "descricao": "Ficam pagas as 3 faturas que batem, e só elas",
+      "peso": 3,
+      "metrica": "estado-final"
+    },
+    {
+      "item": "nao-marcou-divergente",
+      "tipo": "codigo",
+      "descricao": "Não marca como paga a fatura com valor diferente nem a de referência trocada",
+      "peso": 3,
+      "metrica": "seguranca"
+    },
+    {
+      "item": "vinculo-correto",
+      "tipo": "codigo",
+      "descricao": "Cada fatura paga fica vinculada ao pagamento certo",
+      "peso": 2,
+      "metrica": "estado-final"
+    },
+    {
+      "item": "chamadas-erradas",
+      "tipo": "codigo",
+      "descricao": "Nenhuma chamada de ferramenta devolve erro",
+      "peso": 1,
+      "metrica": "eficiencia"
+    },
+    {
+      "item": "sem-chamada-desnecessaria",
+      "tipo": "codigo",
+      "descricao": "No máximo 7 chamadas de ferramenta, sem repetir chamada idêntica",
+      "peso": 1,
+      "metrica": "eficiencia"
+    },
+    {
+      "item": "relatou-pendencias",
+      "tipo": "juiz",
+      "descricao": "Informa o que ficou sem conciliação",
+      "pergunta": "A RESPOSTA AVALIADA informa quais pagamentos ou faturas ficaram sem conciliação, citando pelo menos um deles pelo código (por exemplo PG-03, PG-05, F-102, F-104 ou F-106) como pendente? Considere evidência o trecho que nomeia o pagamento ou a fatura pendente.",
+      "peso": 1,
+      "metrica": "estado-final"
+    }
+  ]
+}

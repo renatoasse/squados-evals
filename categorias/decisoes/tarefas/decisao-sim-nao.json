@@ -1,0 +1,114 @@
+{
+  "descricao": "decisao-sim-nao — Sim/não",
+  "metadata": {
+    "id": "decisao-sim-nao",
+    "tipo": "decisao",
+    "slug": {
+      "pt": "decisao-sim-nao",
+      "en": "decisao-sim-nao"
+    },
+    "titulo": {
+      "pt": "Sim/não",
+      "en": "Sim/não"
+    },
+    "publicada": "2026-10-11"
+  },
+  "entradas": {
+    "tarefa": "decisao-sim-nao",
+    "decisoes": {
+      "arquivo": "categorias/decisoes/entradas/sim-nao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "sn01",
+      "tipo": "codigo",
+      "descricao": "sn01: gabarito 1",
+      "caso": "sn01",
+      "esperado": 1,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn02",
+      "tipo": "codigo",
+      "descricao": "sn02: gabarito 1",
+      "caso": "sn02",
+      "esperado": 1,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn03",
+      "tipo": "codigo",
+      "descricao": "sn03: gabarito 1",
+      "caso": "sn03",
+      "esperado": 1,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn04",
+      "tipo": "codigo",
+      "descricao": "sn04: gabarito 1",
+      "caso": "sn04",
+      "esperado": 1,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn05",
+      "tipo": "codigo",
+      "descricao": "sn05: gabarito 1",
+      "caso": "sn05",
+      "esperado": 1,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn06",
+      "tipo": "codigo",
+      "descricao": "sn06: gabarito 0",
+      "caso": "sn06",
+      "esperado": 0,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn07",
+      "tipo": "codigo",
+      "descricao": "sn07: gabarito 0",
+      "caso": "sn07",
+      "esperado": 0,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn08",
+      "tipo": "codigo",
+      "descricao": "sn08: gabarito 0",
+      "caso": "sn08",
+      "esperado": 0,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn09",
+      "tipo": "codigo",
+      "descricao": "sn09: gabarito 0",
+      "caso": "sn09",
+      "esperado": 0,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sn10",
+      "tipo": "codigo",
+      "descricao": "sn10: gabarito 0",
+      "caso": "sn10",
+      "esperado": 0,
+      "peso": 1,
+      "metrica": "proximidade"
+    }
+  ]
+}

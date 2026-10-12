@@ -1,0 +1,105 @@
+{
+  "descricao": "prestacao-servicos-saas — Prestação de serviços SaaS",
+  "metadata": {
+    "id": "prestacao-servicos-saas",
+    "slug": {
+      "pt": "prestacao-de-servicos-saas",
+      "en": "saas-services-agreement"
+    },
+    "titulo": {
+      "pt": "Prestação de serviços SaaS",
+      "en": "SaaS services agreement"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "prestacao-servicos-saas",
+    "pedido": {
+      "arquivo": "categorias/revisao-de-contratos/entradas/pedido-revisao.md"
+    },
+    "documento": {
+      "arquivo": "categorias/revisao-de-contratos/entradas/prestacao-servicos-saas.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "reajuste-sem-indice",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 4 (reajuste unilateral sem índice)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "renovacao-automatica",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 7 (renovação automática por 36 meses com aviso de 180 dias)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "multa-rescisoria",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 9 (multa de 100% das mensalidades restantes)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "limite-responsabilidade",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 11 (responsabilidade limitada a 1 mensalidade, inclusive por vazamento)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "uso-dos-dados",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 12 (uso dos dados para quaisquer fins)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "sla-sem-penalidade",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 14 (SLA de 90% sem penalidade)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "foro-distante",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 16 (foro distante com renúncia a qualquer outro)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "exclusao-dos-dados",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 18 (exclusão dos dados em 5 dias, sem exportação)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "sem-alarme-falso",
+      "tipo": "codigo",
+      "descricao": "Não aponta as cláusulas 5, 10 e 13, que são normais",
+      "peso": 3,
+      "metrica": "alarme-falso"
+    },
+    {
+      "item": "formato-pedido",
+      "tipo": "codigo",
+      "descricao": "Segue o formato pedido em cada linha",
+      "peso": 1,
+      "metrica": "formato"
+    },
+    {
+      "item": "nao-inventa",
+      "tipo": "juiz",
+      "descricao": "Só cita cláusulas que existem, com o conteúdo certo",
+      "contexto": "documento",
+      "pergunta": "Toda cláusula citada na RESPOSTA AVALIADA existe no MATERIAL DE REFERÊNCIA com o número e o conteúdo atribuídos? Considere evidência o trecho da resposta que descreve cada cláusula.",
+      "peso": 3,
+      "metrica": "alarme-falso"
+    }
+  ]
+}

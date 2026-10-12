@@ -1,0 +1,75 @@
+{
+  "descricao": "migracao-sistema — Migração de sistema",
+  "metadata": {
+    "id": "migracao-sistema",
+    "slug": {
+      "pt": "migracao-de-sistema",
+      "en": "system-migration"
+    },
+    "titulo": {
+      "pt": "Migração de sistema",
+      "en": "System migration"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "migracao-sistema",
+    "pedido": {
+      "arquivo": "categorias/planejamento/entradas/pedido-plano.md"
+    },
+    "documento": {
+      "arquivo": "categorias/planejamento/entradas/migracao-sistema.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "json-valido",
+      "tipo": "codigo",
+      "descricao": "Responde com um JSON no formato pedido",
+      "peso": 1,
+      "metrica": "cobertura"
+    },
+    {
+      "item": "sem-ciclo",
+      "tipo": "codigo",
+      "descricao": "As dependências não formam ciclo nem apontam para tarefa inexistente",
+      "peso": 3,
+      "metrica": "dependencias"
+    },
+    {
+      "item": "dependencias-obrigatorias",
+      "tipo": "codigo",
+      "descricao": "Treinamento e validação antes do corte, script antes da carga de teste e corte antes do acompanhamento; toda dependência declarada é respeitada",
+      "peso": 3,
+      "metrica": "dependencias"
+    },
+    {
+      "item": "cabe-no-prazo",
+      "tipo": "codigo",
+      "descricao": "Termina em até 60 dias",
+      "peso": 3,
+      "metrica": "prazo"
+    },
+    {
+      "item": "sem-sobreposicao",
+      "tipo": "codigo",
+      "descricao": "Cada tarefa tem uma pessoa da equipe, e ninguém faz duas tarefas ao mesmo tempo (inclusive o único DBA)",
+      "peso": 2,
+      "metrica": "recursos"
+    },
+    {
+      "item": "entregaveis",
+      "tipo": "codigo",
+      "descricao": "Os 10 entregáveis obrigatórios estão no plano",
+      "peso": 2,
+      "metrica": "cobertura"
+    },
+    {
+      "item": "corte-na-janela",
+      "tipo": "codigo",
+      "descricao": "O corte começa no dia 55, dentro da janela de fim de semana",
+      "peso": 3,
+      "metrica": "prazo"
+    }
+  ]
+}

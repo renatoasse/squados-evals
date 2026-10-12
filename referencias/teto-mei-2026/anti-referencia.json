@@ -1,0 +1,31 @@
+{
+  "turnos": [
+    {
+      "texto": "",
+      "chamadas": [
+        {
+          "nome": "pesquisa_buscar",
+          "args": {
+            "consulta": "teto MEI 2026"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "mei-26"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "mei-19"
+          }
+        }
+      ]
+    },
+    {
+      "texto": "Resposta: o MEI pode faturar até R$ 130 mil por ano, valor que vale desde julho de 2025.\n\nFontes:\n- [doc:mei-26] \"o teto de faturamento subiu para R$ 130 mil por ano e a mudança já vale desde julho de 2025\"\n- [doc:mei-19] \"O limite anual de faturamento do Microempreendedor Individual continua em R$ 81.000,00 em 2024\"\n\nO limite antigo de R$ 81.000,00 deixou de valer com a mudança de 2025.",
+      "chamadas": []
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+Avalie os casos e as perguntas fornecidos em decisões estruturadas.
+{{decisoes}}

@@ -1,0 +1,126 @@
+{
+  "state": {
+    "sat01": "Atendimento péssimo. Fui tratado com descaso e não quero passar por isso de novo.",
+    "sat02": "Foi horrível falar com vocês. Ninguém ouviu o que eu disse.",
+    "sat03": "Não gostei do atendimento. As respostas foram pouco claras.",
+    "sat04": "O atendimento deixou a desejar. Precisei insistir para ser ouvido.",
+    "sat05": "Recebi a orientação e vou seguir os passos.",
+    "sat06": "Foram educados, mas demoraram bastante. Minha avaliação do atendimento é neutra.",
+    "sat07": "Gostei do atendimento. Vocês explicaram bem o que fazer.",
+    "sat08": "O produto ainda está com defeito, mas estou satisfeito com o atendimento recebido.",
+    "sat09": "Atendimento excelente! Resolveram tudo com atenção e rapidez. Fiquei muito satisfeito.",
+    "sat10": "Vocês foram incríveis. Superaram minhas expectativas no atendimento!"
+  },
+  "questions": {
+    "sat01": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat01. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat02": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat02. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat03": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat03. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat04": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat04. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat05": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat05. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat06": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat06. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat07": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat07. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat08": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat08. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat09": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat09. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    },
+    "sat10": {
+      "type": "score",
+      "instructions": "Leia apenas o caso state.sat10. Avalie a satisfação expressa com o atendimento, não a gravidade do problema ou satisfação com o produto.",
+      "criteria": [
+        "Muito insatisfeito: avaliação fortemente negativa do atendimento",
+        "Insatisfeito: avaliação negativa do atendimento",
+        "Neutro: sem avaliação ou sinais equilibrados",
+        "Satisfeito: avaliação positiva do atendimento",
+        "Muito satisfeito: avaliação fortemente positiva do atendimento"
+      ]
+    }
+  }
+}

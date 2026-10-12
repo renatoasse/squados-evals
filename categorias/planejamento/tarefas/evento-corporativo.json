@@ -1,0 +1,75 @@
+{
+  "descricao": "evento-corporativo — Evento corporativo",
+  "metadata": {
+    "id": "evento-corporativo",
+    "slug": {
+      "pt": "evento-corporativo",
+      "en": "corporate-event"
+    },
+    "titulo": {
+      "pt": "Evento corporativo",
+      "en": "Corporate event"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "evento-corporativo",
+    "pedido": {
+      "arquivo": "categorias/planejamento/entradas/pedido-plano.md"
+    },
+    "documento": {
+      "arquivo": "categorias/planejamento/entradas/evento-corporativo.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "json-valido",
+      "tipo": "codigo",
+      "descricao": "Responde com um JSON no formato pedido",
+      "peso": 1,
+      "metrica": "cobertura"
+    },
+    {
+      "item": "sem-ciclo",
+      "tipo": "codigo",
+      "descricao": "As dependências não formam ciclo nem apontam para tarefa inexistente",
+      "peso": 3,
+      "metrica": "dependencias"
+    },
+    {
+      "item": "dependencias-obrigatorias",
+      "tipo": "codigo",
+      "descricao": "Local antes dos convites, identidade visual antes dos brindes, convites antes do credenciamento e ensaio antes do evento; toda dependência declarada é respeitada",
+      "peso": 3,
+      "metrica": "dependencias"
+    },
+    {
+      "item": "cabe-no-prazo",
+      "tipo": "codigo",
+      "descricao": "Termina em até 30 dias",
+      "peso": 3,
+      "metrica": "prazo"
+    },
+    {
+      "item": "sem-sobreposicao",
+      "tipo": "codigo",
+      "descricao": "Cada tarefa tem uma pessoa da equipe, e ninguém faz duas tarefas ao mesmo tempo",
+      "peso": 2,
+      "metrica": "recursos"
+    },
+    {
+      "item": "entregaveis",
+      "tipo": "codigo",
+      "descricao": "Os 10 entregáveis obrigatórios estão no plano",
+      "peso": 2,
+      "metrica": "cobertura"
+    },
+    {
+      "item": "orcamento",
+      "tipo": "codigo",
+      "descricao": "O custo total fica dentro dos R$ 120.000",
+      "peso": 3,
+      "metrica": "recursos"
+    }
+  ]
+}

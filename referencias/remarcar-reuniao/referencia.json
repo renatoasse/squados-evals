@@ -1,0 +1,36 @@
+{
+  "turnos": [
+    {
+      "texto": "A reunião \"Revisão trimestral\" foi remarcada para quinta-feira, 22/10/2026, às 10:00, o primeiro horário livre do dia. Avisei por e-mail os três participantes: Luana Matos, Otávio Reis e Priscila Amaral.",
+      "chamadas": [
+        {
+          "nome": "agenda_listar_eventos",
+          "args": {}
+        },
+        {
+          "nome": "agenda_listar_livres",
+          "args": {}
+        },
+        {
+          "nome": "agenda_remarcar_evento",
+          "args": {
+            "id": "e2",
+            "novo_inicio": "2026-10-22T10:00"
+          }
+        },
+        {
+          "nome": "email_enviar",
+          "args": {
+            "para": [
+              "luana.matos@vertexlog.com.br",
+              "otavio.reis@vertexlog.com.br",
+              "priscila.amaral@vertexlog.com.br"
+            ],
+            "assunto": "Revisão trimestral remarcada para quinta, 22/10, às 10:00",
+            "corpo": "Olá, pessoal.\n\nA reunião \"Revisão trimestral\", que estava marcada para terça-feira, 20/10, às 14:00, foi remarcada para quinta-feira, 22/10/2026, às 10:00.\n\nObrigado."
+          }
+        }
+      ]
+    }
+  ]
+}

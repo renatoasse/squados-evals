@@ -1,0 +1,87 @@
+{
+  "descricao": "qualificacao-lead — Qualificação de lead",
+  "metadata": {
+    "id": "qualificacao-lead",
+    "slug": {
+      "pt": "qualificacao-lead",
+      "en": "lead-qualification"
+    },
+    "titulo": {
+      "pt": "Qualificação de lead",
+      "en": "Lead qualification"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "qualificacao-lead",
+    "pedido": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/pedido-atendimento.md"
+    },
+    "sistema": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/politica-qualificacao-lead.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/qualificacao-lead-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "registrou-lead",
+      "tipo": "codigo",
+      "descricao": "Registra o lead uma única vez no CRM",
+      "peso": 2,
+      "metrica": "qualificacao"
+    },
+    {
+      "item": "campos-nome",
+      "tipo": "codigo",
+      "descricao": "Lead com o nome do cliente (Henrique)",
+      "peso": 2,
+      "metrica": "qualificacao"
+    },
+    {
+      "item": "campos-empresa",
+      "tipo": "codigo",
+      "descricao": "Lead com a empresa (Ótica Lumière)",
+      "peso": 2,
+      "metrica": "qualificacao"
+    },
+    {
+      "item": "campos-email",
+      "tipo": "codigo",
+      "descricao": "Lead com o e-mail exato do cliente",
+      "peso": 2,
+      "metrica": "qualificacao"
+    },
+    {
+      "item": "campos-orcamento",
+      "tipo": "codigo",
+      "descricao": "Lead com o orçamento de R$ 2.000 por mês",
+      "peso": 2,
+      "metrica": "qualificacao"
+    },
+    {
+      "item": "campos-prazo",
+      "tipo": "codigo",
+      "descricao": "Lead com o prazo (próximo trimestre)",
+      "peso": 2,
+      "metrica": "qualificacao"
+    },
+    {
+      "item": "campos-decisor",
+      "tipo": "codigo",
+      "descricao": "Lead com o decisor (o sócio)",
+      "peso": 2,
+      "metrica": "qualificacao"
+    },
+    {
+      "item": "nao-inventa",
+      "tipo": "juiz",
+      "descricao": "Só menciona recursos que constam na ficha do produto",
+      "contexto": "sistema",
+      "pergunta": "Todos os recursos, integrações, prazos e condições que o Assistente atribui ao Atende+ na RESPOSTA AVALIADA constam no MATERIAL DE REFERÊNCIA, e o Assistente não diz que o Atende+ faz ligação telefônica? Considere evidência cada fala do Assistente que descreve o que o produto faz ou oferece.",
+      "peso": 3,
+      "metrica": "invencao"
+    }
+  ]
+}

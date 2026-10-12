@@ -1,0 +1,1 @@
+No CRM, mude para `em negociação` o status de todos os contatos de Curitiba que estão com status `proposta enviada`. Depois crie, para cada um desses contatos, uma tarefa "Ligar para fechar proposta" com data 20/10/2026. Não altere nenhum outro contato. Ao terminar, diga quais contatos foram atualizados.

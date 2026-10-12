@@ -1,0 +1,18 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "agenda_listar_livres", "args": {} }],
+      "texto": "Olá, Rafael! Claro, vamos agendar a demonstração."
+    },
+    {
+      "texto": "Terça à tarde está difícil por aqui. Vou ver a melhor opção para você."
+    },
+    {
+      "chamadas": [{ "nome": "agenda_criar_evento", "args": { "titulo": "Demo", "inicio": "2026-10-14T16:00", "participantes": [] } }],
+      "texto": "Marquei para você."
+    },
+    {
+      "texto": "Ficou para quarta-feira, 14/10, às 16h."
+    }
+  ]
+}

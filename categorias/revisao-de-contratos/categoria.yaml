@@ -1,0 +1,9 @@
+id: revisao-de-contratos
+ordem: 6
+slug: { pt: revisao-de-contratos, en: contract-review }
+nome: { pt: Revisão de contratos, en: Contract review }
+descricao_en: "Finds the risk clauses planted in a contract, from the client's side, without raising false alarms on normal clauses."
+metricas:
+  - { id: achou, rotulo: { pt: Achou, en: Found } }
+  - { id: alarme-falso, rotulo: { pt: Sem alarme falso, en: No false alarm } }
+  - { id: formato, rotulo: { pt: Formato, en: Format } }

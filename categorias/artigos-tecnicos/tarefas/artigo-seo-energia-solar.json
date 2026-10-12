@@ -1,0 +1,105 @@
+{
+  "descricao": "artigo-seo-energia-solar — Artigo SEO sobre energia solar",
+  "metadata": {
+    "id": "artigo-seo-energia-solar",
+    "slug": {
+      "pt": "artigo-seo-energia-solar",
+      "en": "solar-energy-seo-article"
+    },
+    "titulo": {
+      "pt": "Artigo SEO sobre energia solar",
+      "en": "Solar energy SEO article"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "artigo-seo-energia-solar",
+    "pedido": {
+      "arquivo": "categorias/artigos-tecnicos/entradas/pedido-artigo-seo-energia-solar.md"
+    },
+    "documento": {
+      "arquivo": "categorias/artigos-tecnicos/entradas/ficha-energia-solar.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "palavras-1200-1600",
+      "tipo": "codigo",
+      "descricao": "Tem entre 1.200 e 1.600 palavras",
+      "peso": 1,
+      "metrica": "estrutura"
+    },
+    {
+      "item": "h2-obrigatorios",
+      "tipo": "codigo",
+      "descricao": "Tem as seções H2 Quanto custa, Quanto economiza, Manutenção e Perguntas frequentes",
+      "peso": 2,
+      "metrica": "estrutura"
+    },
+    {
+      "item": "palavra-chave",
+      "tipo": "codigo",
+      "descricao": "Usa \"energia solar residencial\" no título e no 1º parágrafo",
+      "peso": 1,
+      "metrica": "estrutura"
+    },
+    {
+      "item": "fato-1",
+      "tipo": "codigo",
+      "descricao": "Cita a potência de 4,4 kWp",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "fato-2",
+      "tipo": "codigo",
+      "descricao": "Cita os 8 painéis",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "fato-3",
+      "tipo": "codigo",
+      "descricao": "Cita a geração média de 550 kWh/mês",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "fato-4",
+      "tipo": "codigo",
+      "descricao": "Cita o payback de 4,5 anos",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "fato-5",
+      "tipo": "codigo",
+      "descricao": "Cita a garantia de 25 anos dos painéis",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "fato-6",
+      "tipo": "codigo",
+      "descricao": "Cita a garantia de 10 anos do inversor",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "sem-numero-inventado",
+      "tipo": "codigo",
+      "descricao": "Não usa número que não esteja na ficha",
+      "peso": 3,
+      "metrica": "invencao"
+    },
+    {
+      "item": "nao-contradiz",
+      "tipo": "juiz",
+      "descricao": "Não contradiz a ficha técnica",
+      "contexto": "documento",
+      "pergunta": "Todos os números e afirmações técnicas da RESPOSTA AVALIADA são compatíveis com o MATERIAL DE REFERÊNCIA? Considere evidência cada valor, prazo, garantia, quantidade ou característica técnica citada na resposta; se algum deles diverge da ficha ou não está nela, a resposta é não.",
+      "peso": 3,
+      "metrica": "fatos"
+    }
+  ]
+}

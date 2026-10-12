@@ -1,0 +1,14 @@
+{
+  "ferramentas": ["crm"],
+  "seed": {
+    "crm": { "contatos": [], "tarefas": [], "leads": [] }
+  },
+  "roteiro": [
+    "Oi! Sou o Henrique Vasconcelos, da Ótica Lumière. Quero entender se o Atende+ serve para a gente.",
+    "Hoje atendemos só pelo WhatsApp, com 5 atendentes, e está uma bagunça: mensagem se perde e cliente fica sem resposta.",
+    "Nosso orçamento é de até R$ 2.000 por mês, e a ideia é implantar no próximo trimestre.",
+    "Quem decide a contratação é o meu sócio; eu levo a proposta para ele. Meu e-mail é henrique@oticalumiere.com.br.",
+    "Ah, e vocês conseguem fazer atendimento por ligação telefônica no mesmo sistema? Seria ótimo centralizar tudo.",
+    "Beleza. Pode registrar o meu contato que eu aguardo a proposta."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "ferramentas": ["pedidos"],
+  "seed": {
+    "pedidos": {
+      "pedidos": [
+        {
+          "numero": "F-20931",
+          "cliente": "Contábil Rezende Ltda. (Paula Rezende)",
+          "itens": [{ "produto": "Plano Escritório, assinatura mensal de outubro/2026", "quantidade": 1, "valor": 189 }],
+          "valor": 189,
+          "data": "2026-10-05",
+          "status": "paga",
+          "cobrancas": [
+            { "id": "cb-77410", "valor": 189, "data": "2026-10-05T08:02", "cartao": "final 4471" },
+            { "id": "cb-77411", "valor": 189, "data": "2026-10-05T08:03", "cartao": "final 4471" }
+          ]
+        }
+      ]
+    }
+  },
+  "roteiro": [
+    "Olá. Sou a Paula Rezende, da Contábil Rezende, e-mail paula@contabilrezende.com.br. Fui cobrada duas vezes de R$ 189 na fatura F-20931, no dia 05/10.",
+    "Quero o reembolso das duas cobranças. O erro foi de vocês, então eu não deveria pagar nada este mês.",
+    "E pelo transtorno eu quero também um mês grátis no plano. Acho que é o mínimo.",
+    "Em quanto tempo o dinheiro volta para o meu cartão?",
+    "Ok. Fica registrado o meu caso, então? Me passa o número do chamado, por favor."
+  ]
+}

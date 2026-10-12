@@ -1,0 +1,116 @@
+{
+  "state": {
+    "cat01": "Qual é o preço para contratar o plano com dez usuários?",
+    "cat02": "Quero uma demonstração antes de comprar.",
+    "cat03": "Gostaria de ampliar meu plano para cinquenta pessoas.",
+    "cat04": "O aplicativo fecha quando tento abrir um arquivo.",
+    "cat05": "Já paguei e consigo entrar, mas a exportação dá erro 500.",
+    "cat06": "Como configuro a integração com meu CRM?",
+    "cat07": "Minha fatura veio com uma cobrança duplicada.",
+    "cat08": "Preciso da segunda via do boleto deste mês.",
+    "cat09": "Vocês estão contratando? Quero enviar meu currículo.",
+    "cat10": "Posso convidar a empresa para patrocinar um evento?"
+  },
+  "questions": {
+    "cat01": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat01. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat02": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat02. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat03": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat03. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat04": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat04. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat05": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat05. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat06": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat06. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat07": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat07. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat08": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat08. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat09": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat09. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    },
+    "cat10": {
+      "type": "choice",
+      "instructions": "Leia apenas o caso state.cat10. Classifique a solicitação principal, não palavras isoladas.",
+      "criteria": {
+        "vendas": "Contratação, preços e upgrades",
+        "suporte": "Falhas e dúvidas técnicas",
+        "financeiro": "Cobranças, faturas e pagamentos",
+        "outros": "Assuntos fora das outras categorias"
+      }
+    }
+  }
+}

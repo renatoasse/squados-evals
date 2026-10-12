@@ -1,0 +1,72 @@
+{
+  "descricao": "hero-pagina-vendas — Hero da página de vendas",
+  "metadata": {
+    "id": "hero-pagina-vendas",
+    "slug": {
+      "pt": "hero-da-pagina-de-vendas",
+      "en": "sales-page-hero"
+    },
+    "titulo": {
+      "pt": "Hero da página de vendas",
+      "en": "Sales page hero"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "hero-pagina-vendas",
+    "pedido": {
+      "arquivo": "categorias/copywriting/entradas/pedido-hero-pagina-vendas.md"
+    },
+    "briefing": {
+      "arquivo": "categorias/copywriting/entradas/briefing.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "titulo-70",
+      "tipo": "codigo",
+      "descricao": "Título \"# ...\" com até 70 caracteres",
+      "peso": 1,
+      "metrica": "limites"
+    },
+    {
+      "item": "tres-bullets",
+      "tipo": "codigo",
+      "descricao": "Exatamente 3 benefícios em linhas iniciadas por \"- \"",
+      "peso": 1,
+      "metrica": "limites"
+    },
+    {
+      "item": "botao",
+      "tipo": "codigo",
+      "descricao": "Tem o texto do botão entre colchetes, com 2 a 5 palavras",
+      "peso": 1,
+      "metrica": "obrigatorios"
+    },
+    {
+      "item": "publico",
+      "tipo": "juiz",
+      "descricao": "Fala com donos de pequenos negócios",
+      "contexto": "briefing",
+      "pergunta": "A RESPOSTA AVALIADA se dirige explicitamente a donos de pequenos negócios (e não a contadores, estudantes ou grandes empresas)? Considere evidência o trecho do título, do subtítulo ou dos benefícios que nomeia o público; se o texto se dirige também a contadores, estudantes ou grandes empresas, a resposta é não.",
+      "peso": 2,
+      "metrica": "fidelidade"
+    },
+    {
+      "item": "sem-proibidas",
+      "tipo": "codigo",
+      "descricao": "Não usa nenhuma das expressões proibidas pelo briefing",
+      "peso": 3,
+      "metrica": "proibidos"
+    },
+    {
+      "item": "fiel",
+      "tipo": "juiz",
+      "descricao": "Só afirma o que está no briefing",
+      "contexto": "briefing",
+      "pergunta": "A RESPOSTA AVALIADA só afirma benefícios, bônus, preços, prazos e condições que constam no MATERIAL DE REFERÊNCIA? Considere evidência cada número, bônus, garantia, resultado prometido ou característica do curso citada na resposta; se qualquer um deles não estiver no material, a resposta é não.",
+      "peso": 3,
+      "metrica": "fidelidade"
+    }
+  ]
+}

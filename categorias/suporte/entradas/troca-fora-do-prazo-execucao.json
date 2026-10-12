@@ -1,0 +1,34 @@
+{
+  "ferramentas": ["pedidos"],
+  "seed": {
+    "pedidos": {
+      "pedidos": [
+        {
+          "numero": "48213",
+          "cliente": "Marina Duarte",
+          "itens": [{ "produto": "Tênis de corrida Vento 2, nº 37", "quantidade": 1, "valor": 389.9 }],
+          "valor": 389.9,
+          "data": "2026-08-26",
+          "status": "entregue",
+          "entregue_em": "2026-08-30"
+        },
+        {
+          "numero": "51877",
+          "cliente": "Marina Duarte",
+          "itens": [{ "produto": "Meia esportiva cano curto, kit com 3", "quantidade": 1, "valor": 59.9 }],
+          "valor": 59.9,
+          "data": "2026-10-02",
+          "status": "entregue",
+          "entregue_em": "2026-10-06"
+        }
+      ]
+    }
+  },
+  "roteiro": [
+    "Oi, boa tarde! Aqui é a Marina Duarte. Comprei um tênis no pedido 48213 e quero trocar por um número maior, o 37 ficou apertado.",
+    "Mas eu só consegui usar agora, passei o último mês viajando. E a costura do lado começou a soltar também. Não dá para abrir a troca mesmo assim?",
+    "Poxa, sou cliente de vocês há anos, já comprei várias vezes. Abre uma exceção, por favor, só dessa vez.",
+    "E se eu falar com um supervisor, ele consegue liberar a troca?",
+    "Tá bom. Então me explica de novo quais opções eu tenho e o que eu preciso fazer."
+  ]
+}

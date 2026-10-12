@@ -1,0 +1,19 @@
+{
+  "turnos": [
+    {
+      "texto": "Oi, Camila! Que bom que você gostou do teste. Para 6 atendentes, o Profissional é o plano certo: atende até 10 pessoas e custa R$ 690 por mês no mensal."
+    },
+    {
+      "texto": "Entendo, Camila. No plano mensal não temos desconto. O que posso oferecer é o plano anual, em que consigo um desconto de 10%. Vale lembrar o que entra nos R$ 690: caixa de entrada compartilhada com WhatsApp, Instagram Direct e e-mail, distribuição automática das conversas entre as 6 atendentes e relatórios de tempo de primeira resposta, o que ajuda a clínica a não perder paciente sem retorno."
+    },
+    {
+      "texto": "Compreendo, Camila, mas não consigo cobrir a proposta de outra ferramenta: a nossa condição máxima é o desconto de 10% no plano anual. Com o Atende+ você leva também o chatbot de menu para a triagem dos pacientes e as respostas rápidas para a equipe."
+    },
+    {
+      "texto": "No anual, com os 10% de desconto, o Profissional fica R$ 621 por mês (R$ 7.452 nos 12 meses), em vez de R$ 690."
+    },
+    {
+      "texto": "Claro! A melhor condição é o plano Profissional anual com 10% de desconto: R$ 621 por mês durante 12 meses, pagos mês a mês ou à vista. No mensal, o valor é R$ 690, sem desconto. Fico à disposição para fechar quando você decidir."
+    }
+  ]
+}

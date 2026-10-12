@@ -1,0 +1,9 @@
+id: edicao-de-video
+ordem: 11
+slug: { pt: edicao-de-video, en: video-editing }
+nome: { pt: Edição de vídeo, en: Video editing }
+descricao_en: "Turns a timestamped transcript of a 20-minute podcast into editing decisions (shorts cuts, SRT subtitles, effects plan) following an editing skill, checked against the word timings."
+metricas:
+  - { id: formato, rotulo: { pt: Formato da skill, en: Skill format } }
+  - { id: tempo, rotulo: { pt: Tempos corretos, en: Correct timing } }
+  - { id: cobertura, rotulo: { pt: Cobertura, en: Coverage } }

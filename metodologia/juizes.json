@@ -1,0 +1,27 @@
+{
+  "juizes": [
+    {
+      "slug": "openai/gpt-5-mini",
+      "nome": "GPT-5 mini",
+      "reasoning": {
+        "effort": "low"
+      }
+    },
+    {
+      "slug": "google/gemini-2.5-flash",
+      "nome": "Gemini 2.5 Flash",
+      "reasoning": {
+        "effort": "low"
+      },
+      "maxTokens": 32768
+    },
+    {
+      "slug": "anthropic/claude-haiku-4.5",
+      "nome": "Claude Haiku 4.5",
+      "reasoning": {
+        "effort": "low"
+      },
+      "maxTokens": 32768
+    }
+  ]
+}

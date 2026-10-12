@@ -1,0 +1,20 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "pedidos_consultar", "args": { "numero": "48213" } }],
+      "texto": "Boa tarde, Marina! Consultei o pedido 48213: o tênis Vento 2 nº 37 foi entregue em 30/08/2026, há 41 dias. Sinto muito pelo incômodo com o tamanho, mas a troca vale para até 30 dias depois da entrega, então esse pedido já está fora do prazo e eu não consigo abrir a troca."
+    },
+    {
+      "texto": "Entendo, Marina, e lamento que a costura tenha começado a soltar. A troca continua fora do prazo de 30 dias, mas costura soltando pode ser defeito de fabricação: nesse caso o tênis tem garantia do fabricante por 90 dias contados da entrega, o que ainda cobre o seu pedido. Basta enviar fotos do defeito para garantia@passofirme.com.br e você recebe a etiqueta de postagem em até 3 dias úteis para o conserto."
+    },
+    {
+      "texto": "Agradeço muito a sua fidelidade, Marina, e entendo a frustração. Infelizmente o prazo de troca não tem exceção, nem para clientes antigos. O que posso oferecer é um cupom de 10% de desconto na próxima compra, válido por 60 dias, além do conserto pela garantia do fabricante por causa da costura."
+    },
+    {
+      "texto": "Não, Marina: pela nossa política nenhum atendente, supervisor ou gerente pode liberar troca depois de 30 dias da entrega, então falar com outra pessoa não mudaria a resposta. Sigo à disposição para ajudar com as alternativas."
+    },
+    {
+      "texto": "Claro! Você tem duas opções:\n1. Conserto pela garantia do fabricante (90 dias da entrega): envie fotos da costura soltando para garantia@passofirme.com.br; em até 3 dias úteis você recebe a etiqueta de postagem.\n2. Cupom de 10% de desconto na próxima compra, válido por 60 dias, se preferir comprar o número 38.\nDesculpe mais uma vez pelo transtorno, e qualquer dúvida é só chamar."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "turnos": [
+    {
+      "texto": "",
+      "chamadas": [
+        {
+          "nome": "pesquisa_buscar",
+          "args": {
+            "consulta": "limite de faturamento do MEI em 2026"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "mei-37"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "mei-33"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "mei-26"
+          }
+        }
+      ]
+    },
+    {
+      "texto": "Resposta: em 2026 o limite de faturamento anual do MEI é de R$ 97.500,00, valendo desde 1º de janeiro de 2026, conforme a Resolução CGSN nº 192, de 18 de dezembro de 2025.\n\nFontes:\n- [doc:mei-33] \"Fica fixado em R$ 97.500,00 (noventa e sete mil e quinhentos reais) o limite de receita bruta anual do Microempreendedor Individual (MEI)\"\n- [doc:mei-33] \"produzindo efeitos a partir de 1º de janeiro de 2026 para o limite de faturamento do MEI\"\n- [doc:mei-37] \"O limite de faturamento do MEI em 2026 é o fixado pelo Comitê Gestor do Simples Nacional na resolução publicada em dezembro de 2025\"\n\nObservação: o valor de R$ 130 mil citado em [doc:mei-26] vem de um projeto de lei ainda em tramitação ([doc:mei-16]) e não está em vigor; os R$ 81.000,00 de [doc:mei-19] são a regra anterior.",
+      "chamadas": []
+    }
+  ]
+}

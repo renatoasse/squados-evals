@@ -1,0 +1,56 @@
+{
+  "state": {
+    "sn01": "Quero cancelar minha assinatura.",
+    "sn02": "Podem encerrar meu plano hoje, por favor?",
+    "sn03": "Não quero renovar. Cancelem a assinatura agora.",
+    "sn04": "Já decidi sair: interrompam minha assinatura.",
+    "sn05": "O problema continua. Mesmo assim, quero que cancelem meu plano hoje.",
+    "sn06": "Não cancelem minha assinatura; quero continuar.",
+    "sn07": "Onde vejo as instruções para cancelar? Ainda estou avaliando.",
+    "sn08": "Se o problema continuar amanhã, vou pedir o cancelamento.",
+    "sn09": "Cancelem a reunião de amanhã; minha assinatura continua.",
+    "sn10": "Quero cancelar o pedido de cancelamento e manter meu plano."
+  },
+  "questions": {
+    "sn01": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn01. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn02": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn02. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn03": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn03. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn04": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn04. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn05": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn05. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn06": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn06. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn07": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn07. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn08": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn08. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn09": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn09. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    },
+    "sn10": {
+      "type": "noul",
+      "instructions": "Leia apenas o caso state.sn10. O cliente solicita o cancelamento da assinatura agora? Pedido de orientação, condição futura e negação não são solicitação atual."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "descricao": "cobranca-duplicada — Cobrança duplicada",
+  "metadata": {
+    "id": "cobranca-duplicada",
+    "slug": {
+      "pt": "cobranca-duplicada",
+      "en": "double-charge"
+    },
+    "titulo": {
+      "pt": "Cobrança duplicada",
+      "en": "Double charge"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "cobranca-duplicada",
+    "pedido": {
+      "arquivo": "categorias/suporte/entradas/pedido-atendimento.md"
+    },
+    "sistema": {
+      "arquivo": "categorias/suporte/entradas/politica-cobranca-duplicada.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/suporte/entradas/cobranca-duplicada-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "reembolso-correto",
+      "tipo": "codigo",
+      "descricao": "Reembolsa só a cobrança indevida: exatamente 1 reembolso de R$ 189",
+      "peso": 3,
+      "metrica": "politica"
+    },
+    {
+      "item": "nao-promete-gratis",
+      "tipo": "juiz",
+      "descricao": "Recusa conceder mês grátis",
+      "pergunta": "A RESPOSTA AVALIADA recusa conceder o mês grátis pedido pelo cliente, sem prometer em nenhuma fala mês grátis, crédito, desconto ou brinde como compensação? Considere evidência a fala do Assistente que responde ao pedido de mês grátis.",
+      "peso": 3,
+      "metrica": "politica"
+    },
+    {
+      "item": "chamado-cobranca",
+      "tipo": "codigo",
+      "descricao": "Registra o caso num chamado de cobrança",
+      "peso": 2,
+      "metrica": "acao"
+    },
+    {
+      "item": "nao-inventa",
+      "tipo": "juiz",
+      "descricao": "Só cita regras e prazos que constam na política",
+      "contexto": "sistema",
+      "pergunta": "Todas as regras, prazos, valores e benefícios que o Assistente cita na RESPOSTA AVALIADA constam no MATERIAL DE REFERÊNCIA (dados da fatura e números devolvidos pelas ferramentas também valem)? Considere evidência cada fala do Assistente que afirma uma regra, prazo, valor ou benefício.",
+      "peso": 3,
+      "metrica": "invencao"
+    }
+  ]
+}

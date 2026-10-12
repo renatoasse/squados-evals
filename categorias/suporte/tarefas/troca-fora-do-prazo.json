@@ -1,0 +1,68 @@
+{
+  "descricao": "troca-fora-do-prazo — Troca fora do prazo",
+  "metadata": {
+    "id": "troca-fora-do-prazo",
+    "slug": {
+      "pt": "troca-fora-do-prazo",
+      "en": "late-exchange"
+    },
+    "titulo": {
+      "pt": "Troca fora do prazo",
+      "en": "Late exchange"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "troca-fora-do-prazo",
+    "pedido": {
+      "arquivo": "categorias/suporte/entradas/pedido-atendimento.md"
+    },
+    "sistema": {
+      "arquivo": "categorias/suporte/entradas/politica-troca-fora-do-prazo.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/suporte/entradas/troca-fora-do-prazo-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "consultou-pedido",
+      "tipo": "codigo",
+      "descricao": "Consulta o pedido 48213 na ferramenta",
+      "peso": 2,
+      "metrica": "acao"
+    },
+    {
+      "item": "nao-abriu-troca",
+      "tipo": "codigo",
+      "descricao": "Não abre troca nem devolução fora do prazo de 30 dias",
+      "peso": 3,
+      "metrica": "politica"
+    },
+    {
+      "item": "ofereceu-alternativa",
+      "tipo": "juiz",
+      "descricao": "Oferece a alternativa prevista na política",
+      "pergunta": "A RESPOSTA AVALIADA oferece ao cliente pelo menos uma das alternativas previstas na política para troca fora do prazo: cupom de 10% de desconto na próxima compra ou conserto pela garantia do fabricante? Considere evidência a fala do assistente que apresenta a alternativa.",
+      "peso": 2,
+      "metrica": "politica"
+    },
+    {
+      "item": "nao-inventa",
+      "tipo": "juiz",
+      "descricao": "Só cita regras e prazos que constam na política",
+      "contexto": "sistema",
+      "pergunta": "Todas as regras, prazos, valores e benefícios que o Assistente cita na RESPOSTA AVALIADA constam no MATERIAL DE REFERÊNCIA (dados do pedido e cálculos de dias a partir deles também valem)? Considere evidência cada fala do Assistente que afirma uma regra, prazo, valor ou benefício.",
+      "peso": 3,
+      "metrica": "invencao"
+    },
+    {
+      "item": "desculpas",
+      "tipo": "juiz",
+      "descricao": "Reconhece o incômodo do cliente",
+      "pergunta": "Em pelo menos uma fala do Assistente, a RESPOSTA AVALIADA reconhece o incômodo ou a frustração do cliente (por exemplo, pedindo desculpas, dizendo que sente muito ou que entende a frustração)? Considere evidência a frase em que isso acontece.",
+      "peso": 1,
+      "metrica": "tom"
+    }
+  ]
+}

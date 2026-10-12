@@ -1,0 +1,10 @@
+id: resumos-e-atas
+ordem: 3
+slug: { pt: resumos-e-atas, en: summaries-and-minutes }
+nome: { pt: Resumo de documentos e atas, en: Document summaries and minutes }
+descricao_en: "Turns long meetings and reports into minutes and executive summaries that keep the decisions, action items and key facts, without inventing anything."
+metricas:
+  - { id: decisoes, rotulo: { pt: Decisões, en: Decisions } }
+  - { id: tarefas, rotulo: { pt: Tarefas com dono e prazo, en: Action items } }
+  - { id: invencao, rotulo: { pt: Sem invenção, en: Nothing invented } }
+  - { id: tamanho, rotulo: { pt: Tamanho, en: Length } }

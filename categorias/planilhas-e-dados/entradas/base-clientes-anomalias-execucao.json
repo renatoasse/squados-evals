@@ -1,0 +1,4 @@
+{
+  "ferramentas": ["planilha"],
+  "seed": { "planilha": { "tabelas": { "clientes": "categorias/planilhas-e-dados/entradas/clientes.csv" } } }
+}

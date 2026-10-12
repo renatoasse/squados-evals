@@ -1,0 +1,3 @@
+Escreve artigo, tutorial e comparativo a partir de uma ficha técnica, com os fatos certos, a estrutura pedida e sem inventar números.
+
+Cada tarefa traz uma ficha técnica fictícia com 10 a 15 fatos numéricos (ou, no tutorial, 9 passos com o nome exato de cada menu) e um pedido com estrutura obrigatória. A checagem por código confere a estrutura (tamanho, seções, passos numerados, tabela), a presença dos fatos-chave e a ordem dos passos, e reprova qualquer número de dois ou mais dígitos que não esteja na ficha nem no pedido. Um juiz confere se o texto contradiz a ficha, pula o teste de restauração ou recomenda o produto errado.

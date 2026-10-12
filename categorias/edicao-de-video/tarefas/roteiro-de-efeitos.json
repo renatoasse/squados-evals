@@ -1,0 +1,57 @@
+{
+  "descricao": "roteiro-de-efeitos — Roteiro de efeitos",
+  "metadata": {
+    "id": "roteiro-de-efeitos",
+    "slug": {
+      "pt": "roteiro-de-efeitos",
+      "en": "effects-plan"
+    },
+    "titulo": {
+      "pt": "Roteiro de efeitos",
+      "en": "Effects plan"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "roteiro-de-efeitos",
+    "sistema": {
+      "arquivo": "skills/edicao-de-video.md"
+    },
+    "pedido": {
+      "arquivo": "categorias/edicao-de-video/entradas/pedido-efeitos.md"
+    },
+    "transcricao": {
+      "arquivo": "categorias/edicao-de-video/entradas/transcricao.txt"
+    }
+  },
+  "criterios": [
+    {
+      "item": "json-skill",
+      "tipo": "codigo",
+      "descricao": "Responde com JSON no formato da skill, com a lista de efeitos",
+      "peso": 1,
+      "metrica": "formato"
+    },
+    {
+      "item": "so-permitidos",
+      "tipo": "codigo",
+      "descricao": "Usa só os tipos de efeito da skill",
+      "peso": 2,
+      "metrica": "formato"
+    },
+    {
+      "item": "momentos",
+      "tipo": "codigo",
+      "descricao": "Põe zoom em cada \"atenção\" do apresentador, lower_third na 1ª fala da convidada e texto_na_tela em cada valor em R$ entre 5 e 8 min (tolerância de 1 s)",
+      "peso": 3,
+      "metrica": "tempo"
+    },
+    {
+      "item": "lower-third-nome",
+      "tipo": "codigo",
+      "descricao": "O lower_third traz o nome da convidada",
+      "peso": 2,
+      "metrica": "cobertura"
+    }
+  ]
+}

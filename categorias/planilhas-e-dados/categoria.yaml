@@ -1,0 +1,8 @@
+id: planilhas-e-dados
+ordem: 4
+slug: { pt: planilhas-e-dados, en: spreadsheets-and-data }
+nome: { pt: Análise de planilhas e dados, en: Spreadsheet and data analysis }
+descricao_en: "Answers business questions about a spreadsheet with exact numbers and finds planted anomalies in a customer base, querying the data through a tool."
+metricas:
+  - { id: numeros, rotulo: { pt: Números exatos, en: Exact numbers } }
+  - { id: anomalias, rotulo: { pt: Anomalias, en: Anomalies } }

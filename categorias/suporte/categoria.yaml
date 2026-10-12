@@ -1,0 +1,10 @@
+id: suporte
+ordem: 7
+slug: { pt: suporte, en: customer-support }
+nome: { pt: Atendimento de suporte, en: Customer support }
+descricao_en: "Handles a support chat with a fixed script, following the store policy, taking the right action in the tools and not making up rules."
+metricas:
+  - { id: politica, rotulo: { pt: Seguiu a política, en: Followed policy } }
+  - { id: acao, rotulo: { pt: Ação certa, en: Right action } }
+  - { id: invencao, rotulo: { pt: Sem regra inventada, en: No made-up rules } }
+  - { id: tom, rotulo: { pt: Tom, en: Tone } }

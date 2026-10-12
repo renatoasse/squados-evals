@@ -1,0 +1,105 @@
+{
+  "descricao": "locacao-comercial — Locação comercial",
+  "metadata": {
+    "id": "locacao-comercial",
+    "slug": {
+      "pt": "locacao-comercial",
+      "en": "commercial-lease"
+    },
+    "titulo": {
+      "pt": "Locação comercial",
+      "en": "Commercial lease"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "locacao-comercial",
+    "pedido": {
+      "arquivo": "categorias/revisao-de-contratos/entradas/pedido-revisao.md"
+    },
+    "documento": {
+      "arquivo": "categorias/revisao-de-contratos/entradas/locacao-comercial.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "reajuste-abusivo",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 3 (reajuste pelo maior índice + 3%)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "encargos-estruturais",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 6 (IPTU, condomínio extraordinário e reformas estruturais)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "benfeitorias",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 8 (benfeitorias necessárias sem indenização)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "multa-rescisoria",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 9 (multa de 12 aluguéis sem proporcionalidade)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "renuncia-renovacao",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 11 (renúncia à renovação compulsória)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "sublocacao",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 13 (proibição de cessão na venda do fundo de comércio)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "despejo",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 15 (despejo com 15 dias de atraso)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "fianca",
+      "tipo": "codigo",
+      "descricao": "Aponta a cláusula 17 (fiança sem benefício de ordem e por prazo indeterminado)",
+      "peso": 2,
+      "metrica": "achou"
+    },
+    {
+      "item": "sem-alarme-falso",
+      "tipo": "codigo",
+      "descricao": "Não aponta as cláusulas 4, 10 e 19, que são normais",
+      "peso": 3,
+      "metrica": "alarme-falso"
+    },
+    {
+      "item": "formato-pedido",
+      "tipo": "codigo",
+      "descricao": "Segue o formato pedido em cada linha",
+      "peso": 1,
+      "metrica": "formato"
+    },
+    {
+      "item": "nao-inventa",
+      "tipo": "juiz",
+      "descricao": "Só cita cláusulas que existem, com o conteúdo certo",
+      "contexto": "documento",
+      "pergunta": "Toda cláusula citada na RESPOSTA AVALIADA existe no MATERIAL DE REFERÊNCIA com o número e o conteúdo atribuídos? Considere evidência o trecho da resposta que descreve cada cláusula.",
+      "peso": 3,
+      "metrica": "alarme-falso"
+    }
+  ]
+}

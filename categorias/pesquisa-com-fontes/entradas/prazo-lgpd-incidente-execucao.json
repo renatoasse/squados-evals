@@ -1,0 +1,4 @@
+{
+  "ferramentas": ["pesquisa"],
+  "seed": { "pesquisa": { "corpus": "categorias/pesquisa-com-fontes/entradas/corpus-prazo-lgpd-incidente.json" } }
+}

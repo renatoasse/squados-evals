@@ -1,0 +1,57 @@
+{
+  "descricao": "agendamento-demo — Agendamento de demonstração",
+  "metadata": {
+    "id": "agendamento-demo",
+    "slug": {
+      "pt": "agendamento-demo",
+      "en": "demo-scheduling"
+    },
+    "titulo": {
+      "pt": "Agendamento de demonstração",
+      "en": "Demo scheduling"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "agendamento-demo",
+    "pedido": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/pedido-atendimento.md"
+    },
+    "sistema": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/politica-agendamento-demo.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/agendamento-demo-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "listou-agenda",
+      "tipo": "codigo",
+      "descricao": "Consulta os horários livres na agenda",
+      "peso": 1,
+      "metrica": "agendamento"
+    },
+    {
+      "item": "agendou-certo",
+      "tipo": "codigo",
+      "descricao": "Marca um único evento, no horário livre de terça à tarde (13/10, 15h)",
+      "peso": 3,
+      "metrica": "agendamento"
+    },
+    {
+      "item": "participante",
+      "tipo": "codigo",
+      "descricao": "Inclui o e-mail do cliente nos participantes",
+      "peso": 2,
+      "metrica": "agendamento"
+    },
+    {
+      "item": "confirmou-horario",
+      "tipo": "codigo",
+      "descricao": "A última fala do assistente confirma o horário (15h)",
+      "peso": 1,
+      "metrica": "agendamento"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "descricao": "resumo-relatorio-anual — Resumo de relatório anual",
+  "metadata": {
+    "id": "resumo-relatorio-anual",
+    "slug": {
+      "pt": "resumo-de-relatorio-anual",
+      "en": "annual-report-summary"
+    },
+    "titulo": {
+      "pt": "Resumo de relatório anual",
+      "en": "Annual report summary"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "resumo-relatorio-anual",
+    "pedido": {
+      "arquivo": "categorias/resumos-e-atas/entradas/pedido-resumo-relatorio-anual.md"
+    },
+    "documento": {
+      "arquivo": "categorias/resumos-e-atas/entradas/relatorio-anual-cooperativa.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "ate-300",
+      "tipo": "codigo",
+      "descricao": "Tem entre 120 e 300 palavras",
+      "peso": 1,
+      "metrica": "tamanho"
+    },
+    {
+      "item": "fato-1",
+      "tipo": "codigo",
+      "descricao": "Cita a receita de R$ 1,84 bilhão",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "fato-2",
+      "tipo": "codigo",
+      "descricao": "Cita a margem de 3,2% ou as sobras de R$ 58,9 milhões",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "fato-3",
+      "tipo": "codigo",
+      "descricao": "Cita os 4.215 cooperados",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "fato-4",
+      "tipo": "codigo",
+      "descricao": "Cita o risco de estiagem",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "fato-5",
+      "tipo": "codigo",
+      "descricao": "Cita o risco de exposição cambial",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "fato-6",
+      "tipo": "codigo",
+      "descricao": "Cita a meta de receita de R$ 2,1 bilhões em 2027",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "fato-7",
+      "tipo": "codigo",
+      "descricao": "Cita a meta de 180 mil toneladas de armazenagem",
+      "peso": 2,
+      "metrica": "decisoes"
+    },
+    {
+      "item": "sem-numero-inventado",
+      "tipo": "codigo",
+      "descricao": "Não usa número que não esteja no relatório",
+      "peso": 3,
+      "metrica": "invencao"
+    },
+    {
+      "item": "fiel",
+      "tipo": "juiz",
+      "descricao": "Toda afirmação está no relatório",
+      "contexto": "documento",
+      "pergunta": "Toda afirmação da RESPOSTA AVALIADA está sustentada pelo MATERIAL DE REFERÊNCIA? Considere evidência cada número, ano, risco, meta e avaliação citada na resposta; se algum número estiver atribuído ao indicador ou ao ano errado (por exemplo, o valor de 2024 apresentado como de 2025), ou se alguma afirmação não estiver no relatório, a resposta é não.",
+      "peso": 3,
+      "metrica": "invencao"
+    }
+  ]
+}

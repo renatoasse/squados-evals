@@ -1,0 +1,8 @@
+- Cláusula 3: reajuste pelo maior índice entre IGP-M e IPCA, mais 3 pontos percentuais, encarece o aluguel acima da inflação. | Sugestão: reajuste anual por um único índice (IPCA), sem acréscimo.
+- Cláusula 6: transfere à locatária condomínio extraordinário e reformas estruturais, que por lei cabem à locadora. | Sugestão: limitar os encargos da locatária ao IPTU e ao condomínio ordinário.
+- Cláusula 8: benfeitorias necessárias se incorporam ao imóvel sem indenização nem retenção. | Sugestão: garantir indenização e direito de retenção pelas benfeitorias necessárias e pelas úteis autorizadas.
+- Cláusula 9: multa de 12 aluguéis em qualquer devolução antecipada, sem proporcionalidade. | Sugestão: multa de 3 aluguéis, reduzida na proporção do prazo já cumprido.
+- Cláusula 11: renúncia à ação renovatória põe em risco o ponto comercial. | Sugestão: suprimir a renúncia e manter o direito à renovação compulsória.
+- Cláusula 13: proíbe a cessão da locação até na venda do fundo de comércio, o que trava a venda do negócio. | Sugestão: permitir a cessão na venda do fundo de comércio, com anuência que não possa ser negada sem motivo.
+- Cláusula 15: despejo com apenas 15 dias de atraso é desproporcional. | Sugestão: rescisão só após 60 dias de atraso e notificação para purgar a mora.
+- Cláusula 17: fiança dos sócios sem benefício de ordem e por prazo indeterminado. | Sugestão: fiança limitada ao prazo do contrato, com direito de exoneração e sem renúncia ao benefício de ordem (ou dispensar a fiança, já que há seguro-fiança).

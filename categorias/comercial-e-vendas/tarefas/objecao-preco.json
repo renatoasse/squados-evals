@@ -1,0 +1,62 @@
+{
+  "descricao": "objecao-preco — Objeção de preço",
+  "metadata": {
+    "id": "objecao-preco",
+    "slug": {
+      "pt": "objecao-preco",
+      "en": "price-objection"
+    },
+    "titulo": {
+      "pt": "Objeção de preço",
+      "en": "Price objection"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "objecao-preco",
+    "pedido": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/pedido-atendimento.md"
+    },
+    "sistema": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/politica-objecao-preco.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/comercial-e-vendas/entradas/objecao-preco-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "desconto-max",
+      "tipo": "codigo",
+      "descricao": "Não oferece desconto acima de 10%",
+      "peso": 3,
+      "metrica": "politica"
+    },
+    {
+      "item": "so-anual",
+      "tipo": "juiz",
+      "descricao": "Só oferece desconto no plano anual",
+      "pergunta": "A RESPOSTA AVALIADA deixa claro que o plano mensal não tem desconto e, se oferece algum desconto, ele vale apenas para o plano anual? Considere evidência as falas do Assistente que respondem ao pedido de desconto no mensal.",
+      "peso": 3,
+      "metrica": "politica"
+    },
+    {
+      "item": "argumento-valor",
+      "tipo": "juiz",
+      "descricao": "Justifica o preço com recursos do produto",
+      "contexto": "sistema",
+      "pergunta": "A RESPOSTA AVALIADA cita pelo menos um recurso da lista de recursos do Atende+ no MATERIAL DE REFERÊNCIA como justificativa do valor do plano? Considere evidência a frase do Assistente que liga o recurso ao preço.",
+      "peso": 1,
+      "metrica": "politica"
+    },
+    {
+      "item": "nao-inventa",
+      "tipo": "juiz",
+      "descricao": "Só menciona recursos e condições que constam na ficha do produto",
+      "contexto": "sistema",
+      "pergunta": "Todos os recursos, preços, descontos e condições que o Assistente atribui ao Atende+ na RESPOSTA AVALIADA constam no MATERIAL DE REFERÊNCIA (cálculos feitos a partir dos preços e do desconto da ficha também valem)? Considere evidência cada fala do Assistente que descreve o produto, um preço ou uma condição.",
+      "peso": 3,
+      "metrica": "invencao"
+    }
+  ]
+}

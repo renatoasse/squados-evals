@@ -1,0 +1,18 @@
+{
+  "turnos": [
+    {
+      "texto": "",
+      "chamadas": [
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT ROUND(SUM(quantidade * valor_unitario), 2) AS faturamento FROM vendas WHERE data LIKE '2026-09-%'" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT regiao, AVG(quantidade * valor_unitario * (1 - desconto / 100.0)) AS ticket_medio FROM vendas GROUP BY regiao ORDER BY ticket_medio DESC" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT vendedor, COUNT(*) AS vendas FROM vendas GROUP BY vendedor ORDER BY vendas DESC LIMIT 3" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT ROUND(100.0 * SUM(CASE WHEN desconto >= 10 THEN 1 ELSE 0 END) / COUNT(*), 1) AS pct FROM vendas" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT produto, SUM(CASE WHEN data LIKE '2026-08-%' THEN quantidade ELSE 0 END) - SUM(CASE WHEN data LIKE '2026-09-%' THEN quantidade ELSE 0 END) AS queda FROM vendas GROUP BY produto ORDER BY queda DESC" } }
+      ]
+    },
+    {
+      "texto": "{ \"p1\": 1232768.00, \"p2\": \"Sul\", \"p3\": \"João Pedro Nunes\", \"p4\": 41.5, \"p5\": \"Mouse vertical\" }",
+      "chamadas": []
+    }
+  ]
+}

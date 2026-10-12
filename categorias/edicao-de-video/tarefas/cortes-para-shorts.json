@@ -1,0 +1,64 @@
+{
+  "descricao": "cortes-para-shorts — Cortes para shorts",
+  "metadata": {
+    "id": "cortes-para-shorts",
+    "slug": {
+      "pt": "cortes-para-shorts",
+      "en": "shorts-cuts"
+    },
+    "titulo": {
+      "pt": "Cortes para shorts",
+      "en": "Shorts cuts"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "cortes-para-shorts",
+    "sistema": {
+      "arquivo": "skills/edicao-de-video.md"
+    },
+    "pedido": {
+      "arquivo": "categorias/edicao-de-video/entradas/pedido-cortes.md"
+    },
+    "transcricao": {
+      "arquivo": "categorias/edicao-de-video/entradas/transcricao.txt"
+    }
+  },
+  "criterios": [
+    {
+      "item": "json-skill",
+      "tipo": "codigo",
+      "descricao": "Responde com JSON no formato da skill, com a lista de cortes",
+      "peso": 1,
+      "metrica": "formato"
+    },
+    {
+      "item": "cortes-validos",
+      "tipo": "codigo",
+      "descricao": "Todo corte tem de 30 a 60 s, fica dentro do vídeo e começa e termina em fim de frase",
+      "peso": 3,
+      "metrica": "tempo"
+    },
+    {
+      "item": "tema-1",
+      "tipo": "codigo",
+      "descricao": "Um corte cai no trecho sobre misturar a conta pessoal com a da empresa (sobreposição de 80% ou mais)",
+      "peso": 2,
+      "metrica": "cobertura"
+    },
+    {
+      "item": "tema-2",
+      "tipo": "codigo",
+      "descricao": "Um corte cai no trecho sobre quanto guardar de reserva de capital de giro (sobreposição de 80% ou mais)",
+      "peso": 2,
+      "metrica": "cobertura"
+    },
+    {
+      "item": "tema-3",
+      "tipo": "codigo",
+      "descricao": "Um corte cai no trecho sobre o preço pela margem de contribuição (sobreposição de 80% ou mais)",
+      "peso": 2,
+      "metrica": "cobertura"
+    }
+  ]
+}

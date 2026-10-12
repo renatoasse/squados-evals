@@ -1,0 +1,17 @@
+{
+  "turnos": [
+    {
+      "texto": "",
+      "chamadas": [
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT LOWER(TRIM(email)) AS email, GROUP_CONCAT(id) AS ids FROM clientes GROUP BY LOWER(TRIM(email)) HAVING COUNT(*) > 1 ORDER BY MIN(id)" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT (SELECT valor_compras FROM clientes ORDER BY valor_compras LIMIT 1 OFFSET 399) AS v400, (SELECT valor_compras FROM clientes ORDER BY valor_compras LIMIT 1 OFFSET 400) AS v401" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT id, valor_compras FROM clientes WHERE valor_compras >= 50 * 1414.145 ORDER BY id" } },
+        { "nome": "planilha_consultar", "args": { "sql": "SELECT id, cpf FROM clientes WHERE cpf NOT GLOB '[0-9][0-9][0-9].[0-9][0-9][0-9].[0-9][0-9][0-9]-[0-9][0-9]' ORDER BY id" } }
+      ]
+    },
+    {
+      "texto": "{ \"duplicados\": [[62, 217], [125, 721], [127, 514], [202, 694], [537, 564], [543, 745]], \"outliers\": [108, 674, 692, 791], \"cpf_invalido\": [63, 489, 743] }",
+      "chamadas": []
+    }
+  ]
+}

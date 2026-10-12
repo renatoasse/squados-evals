@@ -1,0 +1,25 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "pedidos_consultar", "args": { "numero": "F-20931" } }],
+      "texto": "Olá, Paula. Verifiquei a fatura F-20931 e realmente há duas cobranças de R$ 189,00 no dia 05/10."
+    },
+    {
+      "chamadas": [
+        { "nome": "pedidos_reembolsar", "args": { "numero": "F-20931", "valor": 189 } },
+        { "nome": "pedidos_reembolsar", "args": { "numero": "F-20931", "valor": 189 } }
+      ],
+      "texto": "Certo, fiz o reembolso das duas cobranças, R$ 378,00 no total. Você não paga nada em outubro."
+    },
+    {
+      "texto": "Combinado: liberei um mês grátis no seu plano, que vai valer em novembro."
+    },
+    {
+      "texto": "O valor volta para o cartão em até 48 horas."
+    },
+    {
+      "chamadas": [{ "nome": "pedidos_abrir_chamado", "args": { "numero": "F-20931", "tipo": "cobranca", "descricao": "Reembolso das duas cobranças e mês grátis de cortesia." } }],
+      "texto": "Sim, registrei no chamado ch1."
+    }
+  ]
+}

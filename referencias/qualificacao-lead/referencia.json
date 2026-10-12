@@ -1,0 +1,36 @@
+{
+  "turnos": [
+    {
+      "texto": "Oi, Henrique! Que bom falar com você. O Atende+ é uma plataforma de atendimento que reúne WhatsApp (API oficial), Instagram Direct e e-mail numa caixa de entrada compartilhada pela equipe. Me conta: como a Ótica Lumière atende os clientes hoje?"
+    },
+    {
+      "texto": "Entendi. Esse é exatamente o caso do Atende+: com a caixa de entrada compartilhada, as 5 pessoas veem as mesmas conversas do WhatsApp, a distribuição automática reparte os atendimentos em rodízio e o relatório de tempo de primeira resposta mostra quem ficou sem retorno. Para 5 atendentes, o plano indicado é o Profissional, que atende até 10 pessoas por R$ 690 por mês."
+    },
+    {
+      "texto": "Ótimo, o Profissional cabe com folga no orçamento de até R$ 2.000 por mês, e dá para planejar a implantação para o próximo trimestre. Quem participa da decisão da contratação?"
+    },
+    {
+      "texto": "Perfeito, Henrique. Então eu preparo a proposta para você apresentar ao seu sócio, enviada para henrique@oticalumiere.com.br."
+    },
+    {
+      "texto": "Não, Henrique: o Atende+ não tem ligação telefônica. Ele centraliza WhatsApp, Instagram Direct e e-mail; as ligações continuariam fora do Atende+."
+    },
+    {
+      "chamadas": [
+        {
+          "nome": "crm_registrar_lead",
+          "args": {
+            "nome": "Henrique Vasconcelos",
+            "empresa": "Ótica Lumière",
+            "email": "henrique@oticalumiere.com.br",
+            "orcamento": "até R$ 2.000 por mês",
+            "prazo": "próximo trimestre",
+            "necessidade": "Organizar o atendimento por WhatsApp com 5 atendentes (mensagens se perdendo); plano indicado: Profissional",
+            "decisor": "sócio do Henrique"
+          }
+        }
+      ],
+      "texto": "Pronto, Henrique, registrei o seu contato. Um consultor vai enviar a proposta do plano Profissional para henrique@oticalumiere.com.br em até 1 dia útil. Obrigada pela conversa!"
+    }
+  ]
+}

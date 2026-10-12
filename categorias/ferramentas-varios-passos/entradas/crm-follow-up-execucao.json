@@ -1,0 +1,41 @@
+{
+  "ferramentas": ["crm"],
+  "seed": {
+    "crm": {
+      "contatos": [
+        { "id": "c01", "nome": "Aline Prado", "empresa": "Prado Móveis Planejados", "cidade": "São Paulo", "status": "cliente", "email": "aline@pradomoveis.com.br" },
+        { "id": "c02", "nome": "Bernardo Teles", "empresa": "Teles Engenharia", "cidade": "Porto Alegre", "status": "lead", "email": "bernardo@telesengenharia.com.br" },
+        { "id": "c03", "nome": "Camila Rocha", "empresa": "Rocha Contabilidade", "cidade": "Curitiba", "status": "proposta enviada", "email": "camila@rochacontabil.com.br" },
+        { "id": "c04", "nome": "Davi Monteiro", "empresa": "Monteiro Auto Peças", "cidade": "Belo Horizonte", "status": "qualificado", "email": "davi@monteiroautopecas.com.br" },
+        { "id": "c05", "nome": "Elisa Guimarães", "empresa": "Clínica Sorriso Pleno", "cidade": "Curitiba", "status": "lead", "email": "elisa@sorrisopleno.com.br" },
+        { "id": "c06", "nome": "Fábio Nogueira", "empresa": "Nogueira Transportes", "cidade": "Campinas", "status": "em negociação", "email": "fabio@nogueiratransportes.com.br" },
+        { "id": "c07", "nome": "Gabriela Antunes", "empresa": "Antunes Pet Shop", "cidade": "Curitiba", "status": "proposta enviada", "email": "gabriela@antunespet.com.br" },
+        { "id": "c08", "nome": "Heitor Vasconcelos", "empresa": "Vasconcelos Advogados", "cidade": "Recife", "status": "cliente", "email": "heitor@vasconcelosadv.com.br" },
+        { "id": "c09", "nome": "Isabela Furtado", "empresa": "Furtado Materiais de Construção", "cidade": "São José dos Pinhais", "status": "proposta enviada", "email": "isabela@furtadomateriais.com.br" },
+        { "id": "c10", "nome": "João Pedro Lacerda", "empresa": "Lacerda Ótica", "cidade": "Curitiba", "status": "cliente", "email": "joaopedro@lacerdaotica.com.br" },
+        { "id": "c11", "nome": "Karina Bastos", "empresa": "Bastos Estética", "cidade": "Florianópolis", "status": "qualificado", "email": "karina@bastosestetica.com.br" },
+        { "id": "c12", "nome": "Leonardo Siqueira", "empresa": "Siqueira Imóveis", "cidade": "Curitiba", "status": "proposta enviada", "email": "leonardo@siqueiraimoveis.com.br" },
+        { "id": "c13", "nome": "Mariana Coutinho", "empresa": "Coutinho Eventos", "cidade": "Rio de Janeiro", "status": "perdido", "email": "mariana@coutinhoeventos.com.br" },
+        { "id": "c14", "nome": "Nicolas Barreto", "empresa": "Barreto Academia", "cidade": "Goiânia", "status": "lead", "email": "nicolas@barretoacademia.com.br" },
+        { "id": "c15", "nome": "Olívia Mendonça", "empresa": "Mendonça Laticínios", "cidade": "Londrina", "status": "proposta enviada", "email": "olivia@mendoncalaticinios.com.br" },
+        { "id": "c16", "nome": "Paulo Henrique Dias", "empresa": "Dias Informática", "cidade": "Salvador", "status": "em negociação", "email": "paulo@diasinformatica.com.br" },
+        { "id": "c17", "nome": "Quésia Andrade", "empresa": "Andrade Cosméticos", "cidade": "Fortaleza", "status": "qualificado", "email": "quesia@andradecosmeticos.com.br" },
+        { "id": "c18", "nome": "Rodrigo Pacheco", "empresa": "Pacheco Distribuidora", "cidade": "Curitiba", "status": "proposta enviada", "email": "rodrigo@pachecodistribuidora.com.br" },
+        { "id": "c19", "nome": "Sabrina Leal", "empresa": "Leal Turismo", "cidade": "Natal", "status": "cliente", "email": "sabrina@lealturismo.com.br" },
+        { "id": "c20", "nome": "Thiago Moura", "empresa": "Moura Gráfica", "cidade": "São Paulo", "status": "qualificado", "email": "thiago@mouragrafica.com.br" },
+        { "id": "c21", "nome": "Úrsula Fontes", "empresa": "Fontes Arquitetura", "cidade": "Curitiba", "status": "perdido", "email": "ursula@fontesarquitetura.com.br" },
+        { "id": "c22", "nome": "Vinícius Rezende", "empresa": "Rezende Agro", "cidade": "Maringá", "status": "lead", "email": "vinicius@rezendeagro.com.br" },
+        { "id": "c23", "nome": "Wesley Campos", "empresa": "Campos Segurança", "cidade": "Vitória", "status": "qualificado", "email": "wesley@camposseguranca.com.br" },
+        { "id": "c24", "nome": "Yasmin Toledo", "empresa": "Toledo Confecções", "cidade": "Blumenau", "status": "em negociação", "email": "yasmin@toledoconfeccoes.com.br" },
+        { "id": "c25", "nome": "Zeca Albuquerque", "empresa": "Albuquerque Hortifrúti", "cidade": "Curitiba", "status": "proposta enviada", "email": "zeca@albuquerquehorti.com.br" },
+        { "id": "c26", "nome": "Amanda Ribeiro", "empresa": "Ribeiro Odontologia", "cidade": "Joinville", "status": "cliente", "email": "amanda@ribeiroodonto.com.br" },
+        { "id": "c27", "nome": "Breno Cardoso", "empresa": "Cardoso Logística", "cidade": "Campo Grande", "status": "perdido", "email": "breno@cardosologistica.com.br" },
+        { "id": "c28", "nome": "Cecília Moraes", "empresa": "Moraes Escola de Idiomas", "cidade": "Brasília", "status": "em negociação", "email": "cecilia@moraesidiomas.com.br" },
+        { "id": "c29", "nome": "Diogo Freitas", "empresa": "Freitas Marcenaria", "cidade": "Ponta Grossa", "status": "qualificado", "email": "diogo@freitasmarcenaria.com.br" },
+        { "id": "c30", "nome": "Estela Prates", "empresa": "Prates Floricultura", "cidade": "Cuiabá", "status": "lead", "email": "estela@pratesflores.com.br" }
+      ],
+      "tarefas": [],
+      "leads": []
+    }
+  }
+}

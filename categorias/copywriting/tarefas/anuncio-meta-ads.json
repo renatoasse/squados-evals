@@ -1,0 +1,77 @@
+{
+  "descricao": "anuncio-meta-ads — Anúncio para Meta Ads",
+  "metadata": {
+    "id": "anuncio-meta-ads",
+    "slug": {
+      "pt": "anuncio-meta-ads",
+      "en": "meta-ad"
+    },
+    "titulo": {
+      "pt": "Anúncio para Meta Ads",
+      "en": "Meta ad"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "anuncio-meta-ads",
+    "pedido": {
+      "arquivo": "categorias/copywriting/entradas/pedido-anuncio-meta-ads.md"
+    },
+    "briefing": {
+      "arquivo": "categorias/copywriting/entradas/briefing.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "tres-variacoes",
+      "tipo": "codigo",
+      "descricao": "Responde com um JSON de 3 variações completas",
+      "peso": 1,
+      "metrica": "limites"
+    },
+    {
+      "item": "texto-principal-125",
+      "tipo": "codigo",
+      "descricao": "Texto principal entre 40 e 125 caracteres em todas as variações",
+      "peso": 2,
+      "metrica": "limites"
+    },
+    {
+      "item": "titulo-40",
+      "tipo": "codigo",
+      "descricao": "Título entre 10 e 40 caracteres em todas as variações",
+      "peso": 2,
+      "metrica": "limites"
+    },
+    {
+      "item": "preco",
+      "tipo": "codigo",
+      "descricao": "Cada variação cita o preço (R$ 497 ou 12× de R$ 49,70)",
+      "peso": 3,
+      "metrica": "obrigatorios"
+    },
+    {
+      "item": "prazo",
+      "tipo": "codigo",
+      "descricao": "Cada variação cita o prazo da oferta (31/10)",
+      "peso": 2,
+      "metrica": "obrigatorios"
+    },
+    {
+      "item": "sem-proibidas",
+      "tipo": "codigo",
+      "descricao": "Não usa nenhuma das expressões proibidas pelo briefing",
+      "peso": 3,
+      "metrica": "proibidos"
+    },
+    {
+      "item": "fiel",
+      "tipo": "juiz",
+      "descricao": "Só afirma o que está no briefing",
+      "contexto": "briefing",
+      "pergunta": "A RESPOSTA AVALIADA só afirma benefícios, bônus, preços, prazos e condições que constam no MATERIAL DE REFERÊNCIA? Considere evidência cada número, bônus, garantia, resultado prometido ou característica do curso citada na resposta; se qualquer um deles não estiver no material, a resposta é não.",
+      "peso": 3,
+      "metrica": "fidelidade"
+    }
+  ]
+}

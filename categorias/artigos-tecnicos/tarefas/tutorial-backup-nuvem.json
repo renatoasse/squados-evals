@@ -1,0 +1,91 @@
+{
+  "descricao": "tutorial-backup-nuvem — Tutorial de backup na nuvem",
+  "metadata": {
+    "id": "tutorial-backup-nuvem",
+    "slug": {
+      "pt": "tutorial-backup-na-nuvem",
+      "en": "cloud-backup-tutorial"
+    },
+    "titulo": {
+      "pt": "Tutorial de backup na nuvem",
+      "en": "Cloud backup tutorial"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "tutorial-backup-nuvem",
+    "pedido": {
+      "arquivo": "categorias/artigos-tecnicos/entradas/pedido-tutorial-backup-nuvem.md"
+    },
+    "documento": {
+      "arquivo": "categorias/artigos-tecnicos/entradas/ficha-backup-nuvem.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "passos-numerados",
+      "tipo": "codigo",
+      "descricao": "Tem pelo menos 9 passos numerados",
+      "peso": 1,
+      "metrica": "estrutura"
+    },
+    {
+      "item": "menus-1",
+      "tipo": "codigo",
+      "descricao": "Cita o menu \"Selecionar Pastas\" com o nome exato",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "menus-2",
+      "tipo": "codigo",
+      "descricao": "Cita o menu \"Regras de Exclusão\" com o nome exato",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "menus-3",
+      "tipo": "codigo",
+      "descricao": "Cita o menu \"Agendamento Automático\" com o nome exato",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "menus-4",
+      "tipo": "codigo",
+      "descricao": "Cita o menu \"Chave de Criptografia\" com o nome exato",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "menus-5",
+      "tipo": "codigo",
+      "descricao": "Cita o menu \"Retenção de Versões\" com o nome exato",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "ordem-dos-passos",
+      "tipo": "codigo",
+      "descricao": "Os 9 menus aparecem na ordem da ficha",
+      "peso": 3,
+      "metrica": "fatos"
+    },
+    {
+      "item": "sem-numero-inventado",
+      "tipo": "codigo",
+      "descricao": "Não usa número que não esteja na ficha",
+      "peso": 3,
+      "metrica": "invencao"
+    },
+    {
+      "item": "nao-pula",
+      "tipo": "juiz",
+      "descricao": "Inclui o teste de restauração antes de concluir",
+      "contexto": "documento",
+      "pergunta": "A RESPOSTA AVALIADA inclui, como passo do tutorial, testar a restauração de arquivos (restaurar alguns arquivos e comparar com os originais) antes de dar o backup por configurado? Considere evidência o passo que manda abrir \"Testar Restauração\" ou restaurar arquivos de teste; uma simples menção de que é possível restaurar não conta.",
+      "peso": 2,
+      "metrica": "fatos"
+    }
+  ]
+}

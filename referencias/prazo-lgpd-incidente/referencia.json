@@ -1,0 +1,37 @@
+{
+  "turnos": [
+    {
+      "texto": "",
+      "chamadas": [
+        {
+          "nome": "pesquisa_buscar",
+          "args": {
+            "consulta": "prazo para comunicar incidente de segurança à ANPD"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "lgpd-29"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "lgpd-08"
+          }
+        },
+        {
+          "nome": "pesquisa_ler",
+          "args": {
+            "id": "lgpd-17"
+          }
+        }
+      ]
+    },
+    {
+      "texto": "Resposta: pela regra vigente, a empresa deve comunicar o incidente de segurança à ANPD em 2 (dois) dias úteis, regra que vale desde 1º de abril de 2026 (Resolução CD/ANPD nº 28/2026).\n\nFontes:\n- [doc:lgpd-29] \"no prazo de 2 (dois) dias úteis, contado da data em que tomou conhecimento de que o incidente afetou dados pessoais\"\n- [doc:lgpd-29] \"Esta Resolução entra em vigor em 1º de abril de 2026\"\n- [doc:lgpd-29] \"Fica revogada a Orientação Técnica nº 2/2023\"\n\nObservação: o prazo de 3 dias úteis de [doc:lgpd-08] foi revogado, e o texto de [doc:lgpd-17] é um artigo de opinião. Agentes de pequeno porte têm o prazo em dobro.",
+      "chamadas": []
+    }
+  ]
+}

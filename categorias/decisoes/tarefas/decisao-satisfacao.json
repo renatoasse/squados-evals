@@ -1,0 +1,114 @@
+{
+  "descricao": "decisao-satisfacao — Satisfação do atendimento",
+  "metadata": {
+    "id": "decisao-satisfacao",
+    "tipo": "decisao",
+    "slug": {
+      "pt": "decisao-satisfacao",
+      "en": "decisao-satisfacao"
+    },
+    "titulo": {
+      "pt": "Satisfação do atendimento",
+      "en": "Satisfação do atendimento"
+    },
+    "publicada": "2026-10-11"
+  },
+  "entradas": {
+    "tarefa": "decisao-satisfacao",
+    "decisoes": {
+      "arquivo": "categorias/decisoes/entradas/satisfacao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "sat01",
+      "tipo": "codigo",
+      "descricao": "sat01: gabarito 0",
+      "caso": "sat01",
+      "esperado": 0,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat02",
+      "tipo": "codigo",
+      "descricao": "sat02: gabarito 0",
+      "caso": "sat02",
+      "esperado": 0,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat03",
+      "tipo": "codigo",
+      "descricao": "sat03: gabarito 1",
+      "caso": "sat03",
+      "esperado": 1,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat04",
+      "tipo": "codigo",
+      "descricao": "sat04: gabarito 1",
+      "caso": "sat04",
+      "esperado": 1,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat05",
+      "tipo": "codigo",
+      "descricao": "sat05: gabarito 2",
+      "caso": "sat05",
+      "esperado": 2,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat06",
+      "tipo": "codigo",
+      "descricao": "sat06: gabarito 2",
+      "caso": "sat06",
+      "esperado": 2,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat07",
+      "tipo": "codigo",
+      "descricao": "sat07: gabarito 3",
+      "caso": "sat07",
+      "esperado": 3,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat08",
+      "tipo": "codigo",
+      "descricao": "sat08: gabarito 3",
+      "caso": "sat08",
+      "esperado": 3,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat09",
+      "tipo": "codigo",
+      "descricao": "sat09: gabarito 4",
+      "caso": "sat09",
+      "esperado": 4,
+      "peso": 1,
+      "metrica": "proximidade"
+    },
+    {
+      "item": "sat10",
+      "tipo": "codigo",
+      "descricao": "sat10: gabarito 4",
+      "caso": "sat10",
+      "esperado": 4,
+      "peso": 1,
+      "metrica": "proximidade"
+    }
+  ]
+}

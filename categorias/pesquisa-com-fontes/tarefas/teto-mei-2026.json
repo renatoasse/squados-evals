@@ -1,0 +1,61 @@
+{
+  "descricao": "teto-mei-2026 — Teto do MEI em 2026",
+  "metadata": {
+    "id": "teto-mei-2026",
+    "slug": {
+      "pt": "teto-mei-2026",
+      "en": "mei-cap-2026"
+    },
+    "titulo": {
+      "pt": "Teto do MEI em 2026",
+      "en": "MEI revenue cap in 2026"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "teto-mei-2026",
+    "pedido": {
+      "arquivo": "categorias/pesquisa-com-fontes/entradas/pedido-teto-mei-2026.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/pesquisa-com-fontes/entradas/teto-mei-2026-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "valor-correto",
+      "tipo": "codigo",
+      "descricao": "A resposta traz o limite do ato oficial recente (R$ 97.500,00)",
+      "peso": 3,
+      "metrica": "resposta"
+    },
+    {
+      "item": "data-vigencia",
+      "tipo": "codigo",
+      "descricao": "A resposta traz a vigência certa (desde 1º de janeiro de 2026)",
+      "peso": 2,
+      "metrica": "resposta"
+    },
+    {
+      "item": "citacoes-existem",
+      "tipo": "codigo",
+      "descricao": "Toda citação aponta um documento que existe e reproduz um trecho literal dele (pelo menos uma)",
+      "peso": 3,
+      "metrica": "citacao"
+    },
+    {
+      "item": "cita-oficial",
+      "tipo": "codigo",
+      "descricao": "Cita a resolução oficial recente",
+      "peso": 2,
+      "metrica": "atualidade"
+    },
+    {
+      "item": "nao-usa-blog",
+      "tipo": "codigo",
+      "descricao": "A resposta não traz o valor errado do blog (R$ 130 mil)",
+      "peso": 2,
+      "metrica": "atualidade"
+    }
+  ]
+}

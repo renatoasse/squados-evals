@@ -1,0 +1,70 @@
+{
+  "descricao": "comparativo-erp — Comparativo de ERPs",
+  "metadata": {
+    "id": "comparativo-erp",
+    "slug": {
+      "pt": "comparativo-de-erp",
+      "en": "erp-comparison"
+    },
+    "titulo": {
+      "pt": "Comparativo de ERPs",
+      "en": "ERP comparison"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "comparativo-erp",
+    "pedido": {
+      "arquivo": "categorias/artigos-tecnicos/entradas/pedido-comparativo-erp.md"
+    },
+    "documento": {
+      "arquivo": "categorias/artigos-tecnicos/entradas/ficha-comparativo-erp.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "tabela",
+      "tipo": "codigo",
+      "descricao": "Tem tabela markdown com pelo menos 5 linhas",
+      "peso": 1,
+      "metrica": "estrutura"
+    },
+    {
+      "item": "precos",
+      "tipo": "codigo",
+      "descricao": "Cita os dois preços corretos (R$ 389 e R$ 545)",
+      "peso": 3,
+      "metrica": "fatos"
+    },
+    {
+      "item": "usuarios",
+      "tipo": "codigo",
+      "descricao": "Cita os limites de usuários corretos (5 e 10)",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "integracao-ecommerce",
+      "tipo": "codigo",
+      "descricao": "Aponta que só o Conta Fácil Pro integra com e-commerce",
+      "peso": 2,
+      "metrica": "fatos"
+    },
+    {
+      "item": "sem-numero-inventado",
+      "tipo": "codigo",
+      "descricao": "Não usa número que não esteja na ficha",
+      "peso": 3,
+      "metrica": "invencao"
+    },
+    {
+      "item": "recomendacao-coerente",
+      "tipo": "juiz",
+      "descricao": "Recomenda o ERP que atende 8 usuários e integra com e-commerce",
+      "contexto": "documento",
+      "pergunta": "A recomendação final da RESPOSTA AVALIADA escolhe o ERP que, segundo o MATERIAL DE REFERÊNCIA, comporta 8 usuários e tem integração nativa com e-commerce? Considere evidência o trecho em que a resposta diz qual ERP recomenda; se ela recomenda o outro ERP, não escolhe nenhum ou recomenda os dois, a resposta é não.",
+      "peso": 3,
+      "metrica": "fatos"
+    }
+  ]
+}

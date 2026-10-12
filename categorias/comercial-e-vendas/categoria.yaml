@@ -1,0 +1,10 @@
+id: comercial-e-vendas
+ordem: 8
+slug: { pt: comercial-e-vendas, en: sales }
+nome: { pt: Atendimento comercial e vendas, en: Sales }
+descricao_en: "Handles a sales chat with a fixed script: qualifies and records the lead, keeps to the discount policy, books the demo in the right slot and does not promise features the product lacks."
+metricas:
+  - { id: qualificacao, rotulo: { pt: Qualificação, en: Qualification } }
+  - { id: politica, rotulo: { pt: Política comercial, en: Sales policy } }
+  - { id: invencao, rotulo: { pt: Sem recurso inventado, en: No made-up features } }
+  - { id: agendamento, rotulo: { pt: Agendamento, en: Scheduling } }

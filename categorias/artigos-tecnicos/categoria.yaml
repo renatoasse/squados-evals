@@ -1,0 +1,9 @@
+id: artigos-tecnicos
+ordem: 2
+slug: { pt: artigos-tecnicos, en: technical-articles }
+nome: { pt: Artigos técnicos, en: Technical articles }
+descricao_en: "Writes articles, tutorials and comparisons from a technical spec sheet, with correct facts, the requested structure and no invented numbers."
+metricas:
+  - { id: fatos, rotulo: { pt: Fatos corretos, en: Correct facts } }
+  - { id: invencao, rotulo: { pt: Sem número inventado, en: No invented numbers } }
+  - { id: estrutura, rotulo: { pt: Estrutura, en: Structure } }

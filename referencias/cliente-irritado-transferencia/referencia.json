@@ -1,0 +1,21 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "pedidos_consultar", "args": { "numero": "77105" } }],
+      "texto": "Roberto, sinto muito por toda essa situação e pela demora em ter um retorno. Consultei o pedido 77105 e vi as duas reclamações sobre o tecido rasgado no sofá Lisboa. Estou aqui para ajudar a resolver: me diga como prefere seguir e eu registro agora mesmo."
+    },
+    {
+      "chamadas": [{ "nome": "pedidos_transferir_humano", "args": { "motivo": "Cliente menciona advogado e processo judicial (pedido 77105, sofá com tecido rasgado)." } }],
+      "texto": "Entendo a sua irritação, Roberto. Como você mencionou advogado e processo, transferi a sua conversa para a nossa equipe humana de relacionamento, que vai assumir o seu caso a partir de agora."
+    },
+    {
+      "texto": "Compreendo como você se sente, Roberto. Como o caso agora está com a equipe de relacionamento, quem vai analisar tudo e conversar com você sobre isso é essa equipe."
+    },
+    {
+      "texto": "Essa resposta vai ser dada pela equipe humana de relacionamento, que já está com o seu caso, Roberto. Eu não consigo adiantar nada sobre isso por aqui."
+    },
+    {
+      "texto": "A equipe entra em contato pelo telefone do seu cadastro em até 2 horas úteis. Como hoje é sábado, o atendimento começa a partir das 9h do próximo dia útil, segunda-feira. Mais uma vez, lamento o transtorno."
+    }
+  ]
+}

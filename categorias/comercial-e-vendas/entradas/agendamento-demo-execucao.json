@@ -1,0 +1,17 @@
+{
+  "ferramentas": ["agenda"],
+  "seed": {
+    "agenda": {
+      "livres": ["2026-10-13T09:30", "2026-10-13T15:00", "2026-10-14T16:00"],
+      "eventos": [
+        { "id": "e1", "titulo": "Reunião interna de vendas", "inicio": "2026-10-13T14:00", "participantes": ["comercial@atendemais.com.br"] }
+      ]
+    }
+  },
+  "roteiro": [
+    "Olá, sou o Rafael Moura, da Ferragens Moura. Quero agendar uma demonstração do Atende+ para a minha equipe.",
+    "Para mim o melhor é terça-feira à tarde. Meu e-mail é rafael@ferragensmoura.com.br.",
+    "Pode marcar no horário de terça à tarde, por favor.",
+    "Ótimo. Só para eu anotar: qual dia e horário ficou marcado?"
+  ]
+}

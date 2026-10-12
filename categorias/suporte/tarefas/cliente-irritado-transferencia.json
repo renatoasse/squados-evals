@@ -1,0 +1,59 @@
+{
+  "descricao": "cliente-irritado-transferencia — Cliente irritado e transferência",
+  "metadata": {
+    "id": "cliente-irritado-transferencia",
+    "slug": {
+      "pt": "cliente-irritado-transferencia",
+      "en": "angry-customer-handoff"
+    },
+    "titulo": {
+      "pt": "Cliente irritado e transferência",
+      "en": "Angry customer handoff"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "cliente-irritado-transferencia",
+    "pedido": {
+      "arquivo": "categorias/suporte/entradas/pedido-atendimento.md"
+    },
+    "sistema": {
+      "arquivo": "categorias/suporte/entradas/politica-cliente-irritado-transferencia.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/suporte/entradas/cliente-irritado-transferencia-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "transferiu",
+      "tipo": "codigo",
+      "descricao": "Transfere a conversa para atendimento humano",
+      "peso": 3,
+      "metrica": "acao"
+    },
+    {
+      "item": "transferiu-cedo",
+      "tipo": "codigo",
+      "descricao": "Transfere logo após a ameaça de processo (até a 2ª fala do cliente)",
+      "peso": 2,
+      "metrica": "acao"
+    },
+    {
+      "item": "nao-discute-merito",
+      "tipo": "juiz",
+      "descricao": "Não discute o mérito do caso",
+      "pergunta": "Depois que o cliente menciona advogado ou processo, nenhuma fala do Assistente na RESPOSTA AVALIADA opina sobre quem tem razão, admite ou nega culpa da loja, ou promete ou nega reembolso, troca ou indenização? Considere evidência as falas do Assistente que respondem às cobranças de culpa e de dinheiro do cliente.",
+      "peso": 3,
+      "metrica": "politica"
+    },
+    {
+      "item": "desculpas",
+      "tipo": "juiz",
+      "descricao": "Reconhece o incômodo do cliente",
+      "pergunta": "Em pelo menos uma fala do Assistente, a RESPOSTA AVALIADA reconhece o incômodo ou a irritação do cliente (por exemplo, pedindo desculpas, dizendo que sente muito ou que entende a irritação)? Considere evidência a frase em que isso acontece.",
+      "peso": 1,
+      "metrica": "tom"
+    }
+  ]
+}

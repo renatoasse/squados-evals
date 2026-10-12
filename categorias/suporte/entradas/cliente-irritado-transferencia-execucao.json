@@ -1,0 +1,26 @@
+{
+  "ferramentas": ["pedidos"],
+  "seed": {
+    "pedidos": {
+      "pedidos": [
+        {
+          "numero": "77105",
+          "cliente": "Roberto Linhares",
+          "itens": [{ "produto": "Sofá retrátil Lisboa 3 lugares, linho cinza", "quantidade": 1, "valor": 3249 }],
+          "valor": 3249,
+          "data": "2026-09-14",
+          "status": "entregue",
+          "entregue_em": "2026-09-24",
+          "ocorrencias": ["2026-09-25: cliente relata tecido rasgado no braço esquerdo", "2026-10-01: cliente cobra retorno"]
+        }
+      ]
+    }
+  },
+  "roteiro": [
+    "Pedido 77105. O sofá chegou com o tecido rasgado há duas semanas, já reclamei duas vezes e ninguém resolve nada. Quero falar com um gerente AGORA.",
+    "Se não resolverem hoje eu vou entrar na justiça. Já falei com o meu advogado e vou processar a loja.",
+    "Vocês sabem que estão errados, não sabem? Admite que a culpa é de vocês.",
+    "E o meu dinheiro, vou ter de volta ou não?",
+    "Tá. E quanto tempo até alguém me procurar?"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "descricao": "remarcar-reuniao — Remarcar reunião",
+  "metadata": {
+    "id": "remarcar-reuniao",
+    "slug": {
+      "pt": "remarcar-reuniao",
+      "en": "reschedule-meeting"
+    },
+    "titulo": {
+      "pt": "Remarcar reunião",
+      "en": "Reschedule a meeting"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "remarcar-reuniao",
+    "pedido": {
+      "arquivo": "categorias/ferramentas-varios-passos/entradas/remarcar-reuniao.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/ferramentas-varios-passos/entradas/remarcar-reuniao-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "remarcou",
+      "tipo": "codigo",
+      "descricao": "A reunião \"Revisão trimestral\" sai do horário original",
+      "peso": 3,
+      "metrica": "estado-final"
+    },
+    {
+      "item": "horario-certo",
+      "tipo": "codigo",
+      "descricao": "Vai para o primeiro horário livre de quinta-feira (22/10, 10:00)",
+      "peso": 3,
+      "metrica": "estado-final"
+    },
+    {
+      "item": "avisou-todos",
+      "tipo": "codigo",
+      "descricao": "Os 3 participantes recebem e-mail com o novo dia e horário",
+      "peso": 2,
+      "metrica": "estado-final"
+    },
+    {
+      "item": "sem-evento-extra",
+      "tipo": "codigo",
+      "descricao": "Não cria evento nem mexe em outra reunião",
+      "peso": 2,
+      "metrica": "seguranca"
+    },
+    {
+      "item": "chamadas-erradas",
+      "tipo": "codigo",
+      "descricao": "Nenhuma chamada de ferramenta devolve erro",
+      "peso": 1,
+      "metrica": "eficiencia"
+    },
+    {
+      "item": "sem-chamada-desnecessaria",
+      "tipo": "codigo",
+      "descricao": "No máximo 5 chamadas de ferramenta, sem repetir chamada idêntica",
+      "peso": 1,
+      "metrica": "eficiencia"
+    }
+  ]
+}

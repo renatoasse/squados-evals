@@ -1,0 +1,61 @@
+{
+  "descricao": "crm-follow-up — Follow-up no CRM",
+  "metadata": {
+    "id": "crm-follow-up",
+    "slug": {
+      "pt": "crm-follow-up",
+      "en": "crm-follow-up"
+    },
+    "titulo": {
+      "pt": "Follow-up no CRM",
+      "en": "CRM follow-up"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "crm-follow-up",
+    "pedido": {
+      "arquivo": "categorias/ferramentas-varios-passos/entradas/crm-follow-up.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/ferramentas-varios-passos/entradas/crm-follow-up-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "status-certos",
+      "tipo": "codigo",
+      "descricao": "Os 5 contatos de Curitiba com proposta enviada ficam em negociação",
+      "peso": 3,
+      "metrica": "estado-final"
+    },
+    {
+      "item": "nenhum-outro",
+      "tipo": "codigo",
+      "descricao": "Os outros 25 contatos ficam como estavam",
+      "peso": 3,
+      "metrica": "seguranca"
+    },
+    {
+      "item": "tarefas-certas",
+      "tipo": "codigo",
+      "descricao": "Exatamente 5 tarefas, uma por contato, com data 20/10/2026",
+      "peso": 3,
+      "metrica": "estado-final"
+    },
+    {
+      "item": "chamadas-erradas",
+      "tipo": "codigo",
+      "descricao": "Nenhuma chamada de ferramenta devolve erro",
+      "peso": 1,
+      "metrica": "eficiencia"
+    },
+    {
+      "item": "sem-chamada-desnecessaria",
+      "tipo": "codigo",
+      "descricao": "No máximo 14 chamadas de ferramenta, sem repetir chamada idêntica",
+      "peso": 1,
+      "metrica": "eficiencia"
+    }
+  ]
+}

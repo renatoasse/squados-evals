@@ -1,0 +1,40 @@
+{
+  "turnos": [
+    {
+      "texto": "Conciliação concluída.\n\nConciliadas e marcadas como pagas:\n- F-101 (Padaria Grão Dourado, R$ 1.890,00) com o pagamento PG-01\n- F-103 (Escola Infantil Pequeno Saber, R$ 3.250,50) com o pagamento PG-02\n- F-105 (Restaurante Sabor da Serra, R$ 760,00) com o pagamento PG-04\n\nPendentes:\n- PG-03 (R$ 4.180,00) cita a fatura F-102, mas a fatura é de R$ 4.810,00. O valor não bate, então F-102 continua em aberto.\n- PG-05 (R$ 2.350,00) cita a fatura F-106, que é de R$ 3.900,00. O valor coincide com a F-104, mas a referência é de outra fatura, então não conciliei. F-104 e F-106 continuam em aberto.",
+      "chamadas": [
+        {
+          "nome": "financeiro_listar_faturas",
+          "args": {
+            "status": "aberta"
+          }
+        },
+        {
+          "nome": "financeiro_listar_pagamentos",
+          "args": {}
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-101",
+            "pagamento_id": "PG-01"
+          }
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-103",
+            "pagamento_id": "PG-02"
+          }
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-105",
+            "pagamento_id": "PG-04"
+          }
+        }
+      ]
+    }
+  ]
+}

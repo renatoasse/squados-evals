@@ -1,0 +1,3 @@
+Escreve anúncio, e-mail e página de vendas a partir de um briefing, dentro dos limites pedidos, com todos os elementos obrigatórios e sem promessas proibidas.
+
+Todas as tarefas usam o mesmo briefing fictício: o curso "Planilhas que Vendem", da Escola Contábil Horizonte, com preço, parcelamento, prazo da oferta, bônus, público, garantia e uma lista do que não pode ser prometido ("renda garantida", "fique rico", "100% de aprovação", "sem esforço"). A checagem por código mede limites de caracteres e de estrutura, a presença do preço, do prazo, da garantia e do bônus, e a ausência das expressões proibidas. Juízes conferem se o texto só afirma o que está no briefing e se fala com o público certo.

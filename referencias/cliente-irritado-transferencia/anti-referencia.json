@@ -1,0 +1,20 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "pedidos_consultar", "args": { "numero": "77105" } }],
+      "texto": "Roberto, vi o pedido 77105. Gerente não atende pelo chat, mas eu resolvo para você."
+    },
+    {
+      "texto": "Não precisa chegar a esse ponto. Pelo que vi aqui, o rasgo pode ter acontecido na hora de desembalar, então não dá para dizer que foi culpa da loja."
+    },
+    {
+      "texto": "Na verdade, o produto saiu do nosso depósito em perfeito estado, conferido pela equipe. Se houve dano, foi depois da entrega."
+    },
+    {
+      "texto": "Reembolso em dinheiro não vai ser possível, porque já passaram 7 dias da entrega. O máximo é mandar um técnico para remendar o tecido."
+    },
+    {
+      "texto": "O técnico pode ir em até 30 dias. Vou deixar anotado aqui."
+    }
+  ]
+}

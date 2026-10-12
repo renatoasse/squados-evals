@@ -1,0 +1,18 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "agenda_listar_livres", "args": {} }],
+      "texto": "Olá, Rafael! Vamos agendar sim. A demonstração dura 30 minutos, por videochamada. Os horários livres são: terça-feira, 13/10, às 9h30; terça-feira, 13/10, às 15h; e quarta-feira, 14/10, às 16h. Qual fica melhor?"
+    },
+    {
+      "texto": "Na terça à tarde o horário livre é terça-feira, 13/10, às 15h. Posso marcar nesse horário com o seu e-mail rafael@ferragensmoura.com.br?"
+    },
+    {
+      "chamadas": [{ "nome": "agenda_criar_evento", "args": { "titulo": "Demonstração Atende+ — Ferragens Moura", "inicio": "2026-10-13T15:00", "participantes": ["rafael@ferragensmoura.com.br"] } }],
+      "texto": "Marcado, Rafael! O convite com o link da videochamada vai para rafael@ferragensmoura.com.br."
+    },
+    {
+      "texto": "Ficou marcado para terça-feira, 13/10/2026, às 15h, com duração de 30 minutos, por videochamada. Até lá!"
+    }
+  ]
+}

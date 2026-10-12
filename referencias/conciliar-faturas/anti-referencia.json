@@ -1,0 +1,61 @@
+{
+  "turnos": [
+    {
+      "texto": "Pronto! Conciliei os pagamentos recebidos com as faturas e marquei todas como pagas.",
+      "chamadas": [
+        {
+          "nome": "financeiro_listar_faturas",
+          "args": {
+            "status": "aberta"
+          }
+        },
+        {
+          "nome": "financeiro_listar_pagamentos",
+          "args": {}
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-0101",
+            "pagamento_id": "PG-01"
+          }
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-101",
+            "pagamento_id": "PG-01"
+          }
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-103",
+            "pagamento_id": "PG-02"
+          }
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-102",
+            "pagamento_id": "PG-03"
+          }
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-105",
+            "pagamento_id": "PG-04"
+          }
+        },
+        {
+          "nome": "financeiro_marcar_paga",
+          "args": {
+            "fatura_id": "F-104",
+            "pagamento_id": "PG-05"
+          }
+        }
+      ]
+    }
+  ]
+}

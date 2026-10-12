@@ -1,0 +1,61 @@
+{
+  "descricao": "prazo-lgpd-incidente — Prazo de comunicação de incidente à ANPD",
+  "metadata": {
+    "id": "prazo-lgpd-incidente",
+    "slug": {
+      "pt": "prazo-lgpd-incidente",
+      "en": "lgpd-incident-deadline"
+    },
+    "titulo": {
+      "pt": "Prazo de comunicação de incidente à ANPD",
+      "en": "Deadline to report a data incident to the ANPD"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "prazo-lgpd-incidente",
+    "pedido": {
+      "arquivo": "categorias/pesquisa-com-fontes/entradas/pedido-prazo-lgpd-incidente.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/pesquisa-com-fontes/entradas/prazo-lgpd-incidente-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "prazo-correto",
+      "tipo": "codigo",
+      "descricao": "A resposta traz o prazo da resolução vigente (2 dias úteis)",
+      "peso": 3,
+      "metrica": "resposta"
+    },
+    {
+      "item": "data-vigencia",
+      "tipo": "codigo",
+      "descricao": "A resposta traz a vigência certa (desde 1º de abril de 2026)",
+      "peso": 2,
+      "metrica": "resposta"
+    },
+    {
+      "item": "citacoes-existem",
+      "tipo": "codigo",
+      "descricao": "Toda citação aponta um documento que existe e reproduz um trecho literal dele (pelo menos uma)",
+      "peso": 3,
+      "metrica": "citacao"
+    },
+    {
+      "item": "cita-oficial",
+      "tipo": "codigo",
+      "descricao": "Cita a resolução vigente",
+      "peso": 2,
+      "metrica": "atualidade"
+    },
+    {
+      "item": "nao-usa-opiniao",
+      "tipo": "codigo",
+      "descricao": "A resposta não traz o prazo errado do artigo de opinião (72 horas)",
+      "peso": 2,
+      "metrica": "atualidade"
+    }
+  ]
+}

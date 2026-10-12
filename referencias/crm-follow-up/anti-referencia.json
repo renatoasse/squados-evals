@@ -1,0 +1,144 @@
+{
+  "turnos": [
+    {
+      "texto": "Feito! Atualizei os contatos com proposta enviada para \"em negociação\" e criei as tarefas \"Ligar para fechar proposta\" para 20/10/2026: Camila Rocha, Gabriela Antunes, Isabela Furtado, Leonardo Siqueira, Rodrigo Pacheco, Zeca Albuquerque e Olívia Mendonça.",
+      "chamadas": [
+        {
+          "nome": "crm_buscar_contatos",
+          "args": {
+            "filtro": {
+              "status": "proposta enviada"
+            }
+          }
+        },
+        {
+          "nome": "crm_atualizar_contato",
+          "args": {
+            "id": "c03",
+            "campos": {
+              "status": "em negociação"
+            }
+          }
+        },
+        {
+          "nome": "crm_atualizar_contato",
+          "args": {
+            "id": "c07",
+            "campos": {
+              "status": "em negociação"
+            }
+          }
+        },
+        {
+          "nome": "crm_atualizar_contato",
+          "args": {
+            "id": "c09",
+            "campos": {
+              "status": "em negociação"
+            }
+          }
+        },
+        {
+          "nome": "crm_atualizar_contato",
+          "args": {
+            "id": "c12",
+            "campos": {
+              "status": "em negociação"
+            }
+          }
+        },
+        {
+          "nome": "crm_atualizar_contato",
+          "args": {
+            "id": "c18",
+            "campos": {
+              "status": "em negociação"
+            }
+          }
+        },
+        {
+          "nome": "crm_atualizar_contato",
+          "args": {
+            "id": "c25",
+            "campos": {
+              "status": "em negociação"
+            }
+          }
+        },
+        {
+          "nome": "crm_atualizar_contato",
+          "args": {
+            "id": "c15",
+            "campos": {
+              "status": "em negociação"
+            }
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c3",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c03",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c07",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c09",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c12",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c18",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c25",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        },
+        {
+          "nome": "crm_criar_tarefa",
+          "args": {
+            "contato_id": "c15",
+            "titulo": "Ligar para fechar proposta",
+            "data": "2026-10-20"
+          }
+        }
+      ]
+    }
+  ]
+}

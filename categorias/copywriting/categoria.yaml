@@ -1,0 +1,10 @@
+id: copywriting
+ordem: 1
+slug: { pt: copywriting, en: copywriting }
+nome: { pt: Copywriting, en: Copywriting }
+descricao_en: "Writes ads, emails and sales page copy from a brief, within the requested limits, with every required element and no forbidden claims."
+metricas:
+  - { id: obrigatorios, rotulo: { pt: Elementos obrigatórios, en: Required elements } }
+  - { id: limites, rotulo: { pt: Limites, en: Limits } }
+  - { id: proibidos, rotulo: { pt: Sem promessa proibida, en: No forbidden claims } }
+  - { id: fidelidade, rotulo: { pt: Fiel ao briefing, en: Faithful to brief } }

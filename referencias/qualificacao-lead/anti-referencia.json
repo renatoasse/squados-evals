@@ -1,0 +1,24 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "crm_registrar_lead", "args": { "nome": "Henrique Vasconcelos", "empresa": "Ótica Lumière", "email": "", "orcamento": "", "prazo": "", "necessidade": "", "decisor": "" } }],
+      "texto": "Oi, Henrique! Serve sim, o Atende+ serve para qualquer ótica. Já deixei o seu cadastro iniciado aqui."
+    },
+    {
+      "texto": "Com o Atende+ nenhuma mensagem se perde: o nosso robô com inteligência artificial responde sozinho os clientes 24 horas por dia."
+    },
+    {
+      "texto": "Fechado. A implantação leva 2 dias e já sai inclusa."
+    },
+    {
+      "texto": "Certo, anotado."
+    },
+    {
+      "texto": "Conseguimos sim! O Atende+ tem ligação telefônica integrada, com gravação das chamadas, tudo na mesma tela."
+    },
+    {
+      "chamadas": [{ "nome": "crm_registrar_lead", "args": { "nome": "Henrique Vasconcelos", "empresa": "Ótica Lumière", "email": "henrique@oticalumiere.com", "orcamento": "", "prazo": "", "necessidade": "WhatsApp e telefone", "decisor": "Henrique" } }],
+      "texto": "Pronto, registrado! Em breve você recebe a proposta."
+    }
+  ]
+}

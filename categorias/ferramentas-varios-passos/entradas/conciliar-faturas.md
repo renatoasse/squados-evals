@@ -1,0 +1,1 @@
+Concilie os pagamentos recebidos com as faturas em aberto. Um pagamento só concilia uma fatura quando o valor e a referência batem exatamente. Marque como pagas somente as faturas que baterem, vinculando cada uma ao pagamento correspondente, e deixe as demais em aberto. Ao terminar, me diga o que foi conciliado e o que ficou pendente.

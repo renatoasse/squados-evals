@@ -1,0 +1,8 @@
+- Cláusula 4: permite reajuste anual em percentual definido só pela contratada, sem índice nem teto. | Sugestão: suprimir a cláusula e manter apenas o reajuste anual pelo IPCA da Cláusula 13.
+- Cláusula 7: renova automaticamente por 36 meses e exige aviso de 180 dias para não renovar. | Sugestão: renovação por 12 meses, com aviso de 30 dias.
+- Cláusula 9: multa de 100% das mensalidades restantes é desproporcional e pode ser abusiva. | Sugestão: limitar a multa a 2 mensalidades ou a 20% do saldo restante.
+- Cláusula 11: limita a responsabilidade a 1 mensalidade, inclusive em vazamento de dados. | Sugestão: excluir da limitação os danos por vazamento de dados e por dolo ou culpa grave, ou elevar o teto ao valor anual.
+- Cláusula 12: autoriza o uso dos dados da contratante e de seus clientes para quaisquer fins, inclusive compartilhamento, em conflito com a LGPD. | Sugestão: restringir o uso dos dados à prestação do serviço e proibir o compartilhamento sem autorização.
+- Cláusula 14: SLA de 90% é baixo e não prevê crédito nem penalidade. | Sugestão: SLA de 99,5% com crédito proporcional na mensalidade por descumprimento.
+- Cláusula 16: foro em Chapecó/SC, longe da sede da contratante em Salvador, com renúncia a qualquer outro. | Sugestão: eleger o foro da sede da contratante.
+- Cláusula 18: exclui os dados em 5 dias após o término, sem exportação. | Sugestão: prazo de 60 dias para exportação dos dados em formato aberto antes da exclusão.

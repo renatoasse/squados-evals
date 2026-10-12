@@ -1,0 +1,10 @@
+id: planejamento
+ordem: 10
+slug: { pt: planejamento, en: long-task-planning }
+nome: { pt: Planejamento de tarefa longa, en: Long-task planning }
+descricao_en: "Turns a project briefing into a dated plan that respects dependencies, deadline, team and budget, and covers every required deliverable."
+metricas:
+  - { id: dependencias, rotulo: { pt: Dependências, en: Dependencies } }
+  - { id: prazo, rotulo: { pt: Prazo, en: Deadline } }
+  - { id: recursos, rotulo: { pt: Equipe e orçamento, en: Team and budget } }
+  - { id: cobertura, rotulo: { pt: Cobertura, en: Coverage } }

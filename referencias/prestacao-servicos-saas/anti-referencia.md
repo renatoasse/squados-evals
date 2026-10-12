@@ -1,0 +1,5 @@
+- Cláusula 5: confidencialidade de 5 anos após o término é longa demais para a padaria. | Sugestão: reduzir para 1 ano.
+- Cláusula 9: multa de 100% das mensalidades restantes é desproporcional. | Sugestão: limitar a 2 mensalidades.
+- Cláusula 13: reajuste pelo IPCA pode encarecer o serviço. | Sugestão: congelar o preço durante o contrato.
+- Cláusula 18: exclusão dos dados em 5 dias, sem exportação. | Sugestão: prazo de 60 dias para exportação.
+- Cláusula 21: prevê cobrança de taxa de cancelamento de R$ 2.000. | Sugestão: suprimir a taxa.

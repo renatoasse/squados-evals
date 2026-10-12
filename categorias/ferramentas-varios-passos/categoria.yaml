@@ -1,0 +1,9 @@
+id: ferramentas-varios-passos
+ordem: 9
+slug: { pt: ferramentas-varios-passos, en: multi-step-tools }
+nome: { pt: Tarefa de vários passos com ferramentas, en: Multi-step tool use }
+descricao_en: "Carries out a multi-step request in CRM, calendar, email and finance tools, reaching the right final state without wrong calls or unrequested actions."
+metricas:
+  - { id: estado-final, rotulo: { pt: Resultado final, en: Final result } }
+  - { id: eficiencia, rotulo: { pt: Sem chamada errada, en: No wrong calls } }
+  - { id: seguranca, rotulo: { pt: Sem ação não pedida, en: No unrequested action } }

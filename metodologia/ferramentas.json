@@ -1,0 +1,445 @@
+{
+  "crm": [
+    {
+      "type": "function",
+      "function": {
+        "name": "crm_buscar_contatos",
+        "description": "Lista contatos cujos campos são iguais aos do filtro (ex.: {\"cidade\":\"São Paulo\"}).",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "filtro": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "filtro"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "crm_atualizar_contato",
+        "description": "Atualiza campos de um contato pelo id.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "campos": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "id",
+            "campos"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "crm_criar_tarefa",
+        "description": "Cria tarefa de follow-up para um contato.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "contato_id": {
+              "type": "string"
+            },
+            "titulo": {
+              "type": "string"
+            },
+            "data": {
+              "type": "string",
+              "description": "AAAA-MM-DD"
+            }
+          },
+          "required": [
+            "contato_id",
+            "titulo",
+            "data"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "crm_registrar_lead",
+        "description": "Registra um lead qualificado.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "nome": {
+              "type": "string"
+            },
+            "empresa": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "orcamento": {
+              "type": "string"
+            },
+            "prazo": {
+              "type": "string"
+            },
+            "necessidade": {
+              "type": "string"
+            },
+            "decisor": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "nome",
+            "empresa",
+            "email",
+            "orcamento",
+            "prazo",
+            "necessidade",
+            "decisor"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "agenda": [
+    {
+      "type": "function",
+      "function": {
+        "name": "agenda_listar_livres",
+        "description": "Lista os horários livres (ISO, AAAA-MM-DDTHH:MM).",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "agenda_listar_eventos",
+        "description": "Lista os eventos marcados.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "agenda_criar_evento",
+        "description": "Cria evento num horário livre.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "titulo": {
+              "type": "string"
+            },
+            "inicio": {
+              "type": "string"
+            },
+            "participantes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "titulo",
+            "inicio",
+            "participantes"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "agenda_remarcar_evento",
+        "description": "Move um evento para outro horário livre.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "novo_inicio": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "novo_inicio"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "email": [
+    {
+      "type": "function",
+      "function": {
+        "name": "email_enviar",
+        "description": "Envia e-mail.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "para": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "assunto": {
+              "type": "string"
+            },
+            "corpo": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "para",
+            "assunto",
+            "corpo"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "pedidos": [
+    {
+      "type": "function",
+      "function": {
+        "name": "pedidos_consultar",
+        "description": "Consulta um pedido pelo número.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "numero": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "numero"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "pedidos_abrir_chamado",
+        "description": "Abre chamado de troca, devolução ou cobrança.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "numero": {
+              "type": "string"
+            },
+            "tipo": {
+              "type": "string",
+              "enum": [
+                "troca",
+                "devolucao",
+                "cobranca"
+              ]
+            },
+            "descricao": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "numero",
+            "tipo",
+            "descricao"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "pedidos_reembolsar",
+        "description": "Registra reembolso em reais.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "numero": {
+              "type": "string"
+            },
+            "valor": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "numero",
+            "valor"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "pedidos_transferir_humano",
+        "description": "Transfere a conversa para um atendente humano.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "motivo": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "motivo"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "financeiro": [
+    {
+      "type": "function",
+      "function": {
+        "name": "financeiro_listar_faturas",
+        "description": "Lista faturas; filtra por status se informado.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "aberta",
+                "paga"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "financeiro_listar_pagamentos",
+        "description": "Lista pagamentos recebidos.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "financeiro_marcar_paga",
+        "description": "Marca fatura como paga, vinculando o pagamento.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "fatura_id": {
+              "type": "string"
+            },
+            "pagamento_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "fatura_id",
+            "pagamento_id"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "planilha": [
+    {
+      "type": "function",
+      "function": {
+        "name": "planilha_consultar",
+        "description": "Executa uma consulta SQL (SQLite, somente SELECT) nas tabelas: . Devolve no máximo 200 linhas.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "sql": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "sql"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "pesquisa": [
+    {
+      "type": "function",
+      "function": {
+        "name": "pesquisa_buscar",
+        "description": "Busca documentos por palavras-chave. Devolve até 5 resultados com id, título, data, fonte e trecho.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "consulta": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "consulta"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "pesquisa_ler",
+        "description": "Lê o texto completo de um documento pelo id.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

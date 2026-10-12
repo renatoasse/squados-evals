@@ -1,0 +1,64 @@
+{
+  "descricao": "legendas-srt — Legendas SRT",
+  "metadata": {
+    "id": "legendas-srt",
+    "slug": {
+      "pt": "legendas-srt",
+      "en": "srt-subtitles"
+    },
+    "titulo": {
+      "pt": "Legendas SRT",
+      "en": "SRT subtitles"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "legendas-srt",
+    "sistema": {
+      "arquivo": "skills/edicao-de-video.md"
+    },
+    "pedido": {
+      "arquivo": "categorias/edicao-de-video/entradas/pedido-legendas.md"
+    },
+    "transcricao": {
+      "arquivo": "categorias/edicao-de-video/entradas/transcricao.txt"
+    }
+  },
+  "criterios": [
+    {
+      "item": "json-skill",
+      "tipo": "codigo",
+      "descricao": "Responde com JSON no formato da skill, com o SRT em legendas",
+      "peso": 1,
+      "metrica": "formato"
+    },
+    {
+      "item": "srt-valido",
+      "tipo": "codigo",
+      "descricao": "O SRT é válido e tem pelo menos 20 blocos",
+      "peso": 2,
+      "metrica": "formato"
+    },
+    {
+      "item": "limites",
+      "tipo": "codigo",
+      "descricao": "Todo bloco tem no máximo 2 linhas de 42 caracteres",
+      "peso": 2,
+      "metrica": "formato"
+    },
+    {
+      "item": "sincronia",
+      "tipo": "codigo",
+      "descricao": "Todo bloco começa no início da sua primeira palavra (tolerância de 0,5 s)",
+      "peso": 3,
+      "metrica": "tempo"
+    },
+    {
+      "item": "cobertura",
+      "tipo": "codigo",
+      "descricao": "Os blocos cobrem de 120 s a 240 s sem buracos maiores que 2 s",
+      "peso": 2,
+      "metrica": "cobertura"
+    }
+  ]
+}

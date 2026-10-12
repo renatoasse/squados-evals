@@ -1,0 +1,9 @@
+id: pesquisa-com-fontes
+ordem: 5
+slug: { pt: pesquisa-com-fontes, en: research-with-sources }
+nome: { pt: Pesquisa com fontes, en: Research with sources }
+descricao_en: "Researches a question in a document base through a search tool and answers with the most recent official source, quoting the documents word for word."
+metricas:
+  - { id: resposta, rotulo: { pt: Resposta certa, en: Correct answer } }
+  - { id: citacao, rotulo: { pt: Citação verificável, en: Verifiable citation } }
+  - { id: atualidade, rotulo: { pt: Fonte mais recente, en: Most recent source } }

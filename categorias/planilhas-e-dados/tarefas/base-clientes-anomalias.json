@@ -1,0 +1,54 @@
+{
+  "descricao": "base-clientes-anomalias — Anomalias na base de clientes",
+  "metadata": {
+    "id": "base-clientes-anomalias",
+    "slug": {
+      "pt": "base-clientes-anomalias",
+      "en": "customer-base-anomalies"
+    },
+    "titulo": {
+      "pt": "Anomalias na base de clientes",
+      "en": "Customer base anomalies"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "base-clientes-anomalias",
+    "pedido": {
+      "arquivo": "categorias/planilhas-e-dados/entradas/pedido-base-clientes-anomalias.md"
+    },
+    "execucao": {
+      "arquivo": "categorias/planilhas-e-dados/entradas/base-clientes-anomalias-execucao.json"
+    }
+  },
+  "criterios": [
+    {
+      "item": "duplicados",
+      "tipo": "codigo",
+      "descricao": "Acha pelo menos 5 dos 6 pares duplicados pelo e-mail, sem par falso",
+      "peso": 3,
+      "metrica": "anomalias"
+    },
+    {
+      "item": "outliers",
+      "tipo": "codigo",
+      "descricao": "Acha os 4 valores de compra de 50× a mediana ou mais, sem falso",
+      "peso": 2,
+      "metrica": "anomalias"
+    },
+    {
+      "item": "cpf-invalido",
+      "tipo": "codigo",
+      "descricao": "Acha os 3 CPFs fora do formato 000.000.000-00, sem falso",
+      "peso": 2,
+      "metrica": "anomalias"
+    },
+    {
+      "item": "usou-ferramenta",
+      "tipo": "codigo",
+      "descricao": "Consultou a planilha pela ferramenta",
+      "peso": 1,
+      "metrica": "numeros"
+    }
+  ]
+}

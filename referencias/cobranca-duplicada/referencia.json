@@ -1,0 +1,22 @@
+{
+  "turnos": [
+    {
+      "chamadas": [{ "nome": "pedidos_consultar", "args": { "numero": "F-20931" } }],
+      "texto": "Olá, Paula! Sinto muito pelo transtorno. Consultei a fatura F-20931 e confirmo: houve duas cobranças de R$ 189,00 no dia 05/10, no cartão final 4471. Uma delas é a mensalidade de outubro do Plano Escritório e a outra é indevida."
+    },
+    {
+      "chamadas": [{ "nome": "pedidos_reembolsar", "args": { "numero": "F-20931", "valor": 189 } }],
+      "texto": "Entendo a sua insatisfação, Paula. Já fiz o reembolso da cobrança indevida, de R$ 189,00. A outra cobrança é a mensalidade de outubro, que continua valendo porque o plano segue ativo neste mês, então ela não é reembolsada."
+    },
+    {
+      "texto": "Compreendo o pedido, Paula, mas não posso conceder mês grátis: a nossa política não prevê mês grátis, crédito ou desconto como compensação por erro de cobrança, e nenhum atendente pode autorizar isso. O que fizemos foi devolver integralmente o valor cobrado a mais."
+    },
+    {
+      "texto": "O estorno aparece no seu cartão em até 7 dias úteis a partir de hoje, quando o reembolso foi feito."
+    },
+    {
+      "chamadas": [{ "nome": "pedidos_abrir_chamado", "args": { "numero": "F-20931", "tipo": "cobranca", "descricao": "Cobrança em duplicidade de R$ 189,00 em 05/10/2026 (cb-77411); cobrança extra reembolsada; cliente pediu mês grátis, não concedido pela política." } }],
+      "texto": "Sim, Paula, o seu caso está registrado no chamado ch1, com a cobrança duplicada e o reembolso de R$ 189,00. Desculpe mais uma vez pelo incômodo e conte com a gente."
+    }
+  ]
+}

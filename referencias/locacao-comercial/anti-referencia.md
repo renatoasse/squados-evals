@@ -1,0 +1,5 @@
+- Cláusula 4: o seguro-fiança é uma garantia cara e incomum. | Sugestão: substituir por caução de 1 aluguel.
+- Cláusula 9: multa de 12 aluguéis sem proporcionalidade. | Sugestão: reduzir para 3 aluguéis proporcionais.
+- Cláusula 13: veda a cessão na venda do fundo de comércio. | Sugestão: permitir a cessão nesse caso.
+- Cláusula 19: o foro deveria ser outro. | Sugestão: eleger foro de livre escolha da locatária.
+- Cláusula 21: obriga a locatária a pagar a comissão de corretagem. | Sugestão: suprimir a cláusula.

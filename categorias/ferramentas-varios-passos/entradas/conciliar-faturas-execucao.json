@@ -1,0 +1,22 @@
+{
+  "ferramentas": ["financeiro"],
+  "seed": {
+    "financeiro": {
+      "faturas": [
+        { "id": "F-101", "cliente": "Padaria Grão Dourado", "valor": 1890.00, "vencimento": "2026-10-05", "status": "aberta" },
+        { "id": "F-102", "cliente": "Oficina Mecânica Torque", "valor": 4810.00, "vencimento": "2026-10-07", "status": "aberta" },
+        { "id": "F-103", "cliente": "Escola Infantil Pequeno Saber", "valor": 3250.50, "vencimento": "2026-10-08", "status": "aberta" },
+        { "id": "F-104", "cliente": "Farmácia Vida Plena", "valor": 2350.00, "vencimento": "2026-10-10", "status": "aberta" },
+        { "id": "F-105", "cliente": "Restaurante Sabor da Serra", "valor": 760.00, "vencimento": "2026-10-12", "status": "aberta" },
+        { "id": "F-106", "cliente": "Studio Pilates Equilíbrio", "valor": 3900.00, "vencimento": "2026-10-15", "status": "aberta" }
+      ],
+      "pagamentos": [
+        { "id": "PG-01", "valor": 1890.00, "data": "2026-10-05", "referencia": "F-101" },
+        { "id": "PG-02", "valor": 3250.50, "data": "2026-10-08", "referencia": "F-103" },
+        { "id": "PG-03", "valor": 4180.00, "data": "2026-10-09", "referencia": "F-102" },
+        { "id": "PG-04", "valor": 760.00, "data": "2026-10-11", "referencia": "F-105" },
+        { "id": "PG-05", "valor": 2350.00, "data": "2026-10-13", "referencia": "F-106" }
+      ]
+    }
+  }
+}

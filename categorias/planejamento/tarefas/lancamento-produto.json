@@ -1,0 +1,68 @@
+{
+  "descricao": "lancamento-produto — Lançamento de produto",
+  "metadata": {
+    "id": "lancamento-produto",
+    "slug": {
+      "pt": "lancamento-de-produto",
+      "en": "product-launch"
+    },
+    "titulo": {
+      "pt": "Lançamento de produto",
+      "en": "Product launch"
+    },
+    "publicada": "2026-10-15"
+  },
+  "entradas": {
+    "tarefa": "lancamento-produto",
+    "pedido": {
+      "arquivo": "categorias/planejamento/entradas/pedido-plano.md"
+    },
+    "documento": {
+      "arquivo": "categorias/planejamento/entradas/lancamento-produto.md"
+    }
+  },
+  "criterios": [
+    {
+      "item": "json-valido",
+      "tipo": "codigo",
+      "descricao": "Responde com um JSON no formato pedido",
+      "peso": 1,
+      "metrica": "cobertura"
+    },
+    {
+      "item": "sem-ciclo",
+      "tipo": "codigo",
+      "descricao": "As dependências não formam ciclo nem apontam para tarefa inexistente",
+      "peso": 3,
+      "metrica": "dependencias"
+    },
+    {
+      "item": "dependencias-obrigatorias",
+      "tipo": "codigo",
+      "descricao": "Testes antes da publicação, landing page antes da campanha, protótipo antes das telas e back-end antes dos pagamentos; toda dependência declarada é respeitada",
+      "peso": 3,
+      "metrica": "dependencias"
+    },
+    {
+      "item": "cabe-no-prazo",
+      "tipo": "codigo",
+      "descricao": "Termina em até 40 dias úteis",
+      "peso": 3,
+      "metrica": "prazo"
+    },
+    {
+      "item": "sem-sobreposicao",
+      "tipo": "codigo",
+      "descricao": "Cada tarefa tem uma pessoa da equipe, e ninguém faz duas tarefas ao mesmo tempo",
+      "peso": 2,
+      "metrica": "recursos"
+    },
+    {
+      "item": "entregaveis",
+      "tipo": "codigo",
+      "descricao": "Os 10 entregáveis obrigatórios estão no plano",
+      "peso": 2,
+      "metrica": "cobertura"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "convidada": "Patrícia Andrade",
+  "janelaValores": [
+    300,
+    480
+  ],
+  "momentos": [
+    {
+      "tipo": "zoom",
+      "inicio": 32.4,
+      "fim": 33,
+      "gatilho": "Atenção,"
+    },
+    {
+      "tipo": "lower_third",
+      "inicio": 57.5,
+      "fim": 61.4,
+      "gatilho": "Patrícia Andrade"
+    },
+    {
+      "tipo": "zoom",
+      "inicio": 263.1,
+      "fim": 263.7,
+      "gatilho": "Atenção"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 407.7,
+      "fim": 408.3,
+      "gatilho": "R$ 3.500"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 413,
+      "fim": 413.6,
+      "gatilho": "R$ 9.800"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 417.3,
+      "fim": 417.9,
+      "gatilho": "R$ 1.700"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 421,
+      "fim": 421.5,
+      "gatilho": "R$ 800"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 425.4,
+      "fim": 426.1,
+      "gatilho": "R$ 15.800"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 431.5,
+      "fim": 432.2,
+      "gatilho": "R$ 47.400"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 461.6,
+      "fim": 462.3,
+      "gatilho": "R$ 60.000"
+    },
+    {
+      "tipo": "texto_na_tela",
+      "inicio": 463.9,
+      "fim": 464.5,
+      "gatilho": "R$ 3.000"
+    },
+    {
+      "tipo": "zoom",
+      "inicio": 485.8,
+      "fim": 486.4,
+      "gatilho": "Atenção,"
+    },
+    {
+      "tipo": "zoom",
+      "inicio": 934.4,
+      "fim": 935,
+      "gatilho": "Atenção"
+    }
+  ]
+}
